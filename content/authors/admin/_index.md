@@ -1,39 +1,40 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Andrea De Polis
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Ph.D. candidate <br/> Finance & Econometrics
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+ - name: Warwick Business School
+   url: https://www.wbs.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include macroeconomics, non-linear and non-Gaussian time series, forecasting and empirical asset pricing.
 
-# Interests to show in About widget
-interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Finance & Econometrics
+    institution: Warwick Business School
+    year: 2017-present
+  - course: MSc in Economics
+    institution: University of Rome Tor Vergata
+    year: 2015-2017
+  - course: BSc in Economics
+    institution: Roma Tre University
+    year: 2012-2015
+
+# Interests to show in About widget
+interests:
+- Applied Macroeconomics
+- Non-Gaussian time series
+- Forecasting
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -43,35 +44,29 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '/#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+- icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=hM0IWi0AAAAJ&hl=en
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://github.com/HCdepo
 
 # Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
+# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
 # and uncomment the lines below.
 # - icon: cv
 #   icon_pack: ai
-#   link: uploads/resume.pdf
+#    link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "mailto:andrea.depolis.17@mail.wbs.ac.uk"
+
+# {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
-
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+<div style="text-align: justify">
+I am a Ph.D. candidate in Finance & Econometrics at Warwick Business School. My research interests cover applied macroeconomics and financial econometrics, with a focus on non-linear and non-Gaussian time series, and density forecasting. I work under the supervision of Dr. <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer"> Ivan Petrella</a> and Prof. <a href="https://sites.google.com/site/anabgalvao/" target="_blank" rel="noopener noreferrer"> Ana Galv&atilde;o</a>.
+During my first year of Ph.D. I visited the Monetary Policy and Economic Outlook Directorate of the Bank of Italy for a research internship. I am also a Senior Economist at <a href="https://www.now-casting.com/home" target="_blank" rel="noopener noreferrer"> NowCasting Economics Ltd</a>.
+</div>
