@@ -32,7 +32,6 @@ publishDate: "2021-01-01T00:00:00Z"
 
 abstract: We model secular trends and cyclical changes of the predictive density of US GDP growth. A substantial increase in downside risk to US economic growth emerges over the last 30 years, associated with the long-run growth slowdown started in the early 2000s. Conditional skewness moves procyclically, implying negatively skewed predictive densities ahead and during recessions, often anticipated by deteriorating financial conditions, while positively skewed distributions characterize expansions. The modelling framework ensures robustness to tail events, allows for either dense or sparse predictor designs, and delivers competitive out-of-sample (point, density and tail) forecasts, improving upon standard benchmarks.
 
-
 # Summary. An optional shortened abstract.
 #summary: We model secular trends and cyclical changes of the predictive density of US GDP growth. A substantial increase in downside risk to US economic growth emerges over the last 30 years, associated with the long-run growth slowdown started in the early 2000s. Conditional skewness moves procyclically, implying negatively skewed predictive densities ahead and during recessions, often anticipated by deteriorating financial conditions, while positively skewed distributions characterize expansions. The modelling framework ensures robustness to tail events, allows for either dense or sparse predictor designs, and delivers competitive out-of-sample (point, density and tail) forecasts, improving upon standard benchmarks.
 
@@ -77,4 +76,7 @@ image:
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 #slides: example
+
+share: false  # Show social sharing links?
+profile: false
 ---

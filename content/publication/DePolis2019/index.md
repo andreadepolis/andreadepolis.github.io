@@ -31,7 +31,6 @@ publishDate: "2019-01-01T00:00:00Z"
 
 abstract: In this paper we estimate an open economy New-Keynesian model to investigate the impact of unconventional monetary policies on the exchange rate, focusing on those adopted since the Global Financial Crisis in the euro area and in the United States. To this end we replace effective, short-term, interest rates with shadow rates, which provide a measure of the monetary stance when the former reach their effective lower bound. We find that since 2009, unconventional monetary policies significantly affected the dynamics of the euro-dollar exchange rate both in nominal and real terms. While the stimulus provided by the Fed prevailed between 2011 and 2014, contributing to the weakening of the dollar, in most recent years the depreciation of the euro mainly reflected the measures adopted by the ECB.
 
-
 # Summary. An optional shortened abstract.
 #summary: We model secular trends and cyclical changes of the predictive density of US GDP growth. A substantial increase in downside risk to US economic growth emerges over the last 30 years, associated with the long-run growth slowdown started in the early 2000s. Conditional skewness moves procyclically, implying negatively skewed predictive densities ahead and during recessions, often anticipated by deteriorating financial conditions, while positively skewed distributions characterize expansions. The modelling framework ensures robustness to tail events, allows for either dense or sparse predictor designs, and delivers competitive out-of-sample (point, density and tail) forecasts, improving upon standard benchmarks.
 
@@ -76,4 +75,6 @@ image:
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 #slides: example
+share: false  # Show social sharing links?
+profile: false
 ---
