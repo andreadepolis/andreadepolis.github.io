@@ -28,7 +28,7 @@ education:
     year: 2015-2017
   - course: BSc in Economics
     institution: Roma Tre University
-    year: 2012-2015
+    year: 2012-2014
 
 # Interests to show in About widget
 interests:
@@ -49,7 +49,7 @@ social:
   link: https://scholar.google.com/citations?user=hM0IWi0AAAAJ&hl=en
 - icon: github
   icon_pack: fab
-  link: https://github.com/andreadepolis 
+  link: https://github.com/andreadepolis
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,

@@ -51,7 +51,7 @@ url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3852363#references-widget'
+url_slides: 'https://drive.google.com/file/d/1hBav2GcnmBFP9lvpqJcVVH-1iQWwCkYc/view?usp=sharing'
 url_source: ''
 url_video: ''
 
