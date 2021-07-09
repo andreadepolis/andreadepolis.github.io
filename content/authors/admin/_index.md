@@ -49,7 +49,7 @@ social:
   link: https://scholar.google.com/citations?user=hM0IWi0AAAAJ&hl=en
 - icon: github
   icon_pack: fab
-  link: https://github.com/HCdepo
+  link: https://github.com/andreadepolis 
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`,
