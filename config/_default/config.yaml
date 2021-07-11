@@ -5,7 +5,7 @@
 
 title: Andrea De Polis # Website name
 baseurl: 'https://andreadepolis.github.io/' # Website URL
-copyright: '' # Footer text, e.g. '© {year} Me'
+copyright: '© 2021 Andrea De Polis' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
