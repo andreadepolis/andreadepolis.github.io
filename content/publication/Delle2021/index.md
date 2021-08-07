@@ -32,8 +32,8 @@ publishDate: "2021-01-01T00:00:00Z"
 
 abstract: We model secular trends and cyclical changes of the predictive density of US GDP growth. A substantial increase in downside risk to US economic growth emerges over the last 30 years, associated with the long-run growth slowdown started in the early 2000s. Conditional skewness moves procyclically, implying negatively skewed predictive densities ahead and during recessions, often anticipated by deteriorating financial conditions, while positively skewed distributions characterize expansions. The modelling framework ensures robustness to tail events, allows for either dense or sparse predictor designs, and delivers competitive out-of-sample (point, density and tail) forecasts, improving upon standard benchmarks.
 
-# Summary. An optional shortened abstract.
-#summary: We model secular trends and cyclical changes of the predictive density of US GDP growth. A substantial increase in downside risk to US economic growth emerges over the last 30 years, associated with the long-run growth slowdown started in the early 2000s. Conditional skewness moves procyclically, implying negatively skewed predictive densities ahead and during recessions, often anticipated by deteriorating financial conditions, while positively skewed distributions characterize expansions. The modelling framework ensures robustness to tail events, allows for either dense or sparse predictor designs, and delivers competitive out-of-sample (point, density and tail) forecasts, improving upon standard benchmarks.
+# Summary. An optional shortened abstract. Add for example "in the media"
+#summary:
 
 tags: []
 
@@ -41,9 +41,9 @@ tags: []
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+links:
+- name: SUERF policy brief
+  url: https://www.suerf.org/suer-policy-brief/29891/the-dynamics-of-macroeconomic-downside-risk
 
 url_pdf: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3852363#references-widget'
 url_code: ''
