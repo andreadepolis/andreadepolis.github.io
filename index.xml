@@ -7,7 +7,7 @@
     <description>Andrea De Polis</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Andrea De Polis</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://andreadepolis.github.io/media/icon_hu5bbdac8555476ddb5a94b8b904ae6f96_154295_512x512_fill_lanczos_center_2.png</url>
+      <url>https://andreadepolis.github.io/media/icon_hu5bbdac8555476ddb5a94b8b904ae6f96_154295_512x512_fill_lanczos_center_3.png</url>
       <title>Andrea De Polis</title>
       <link>https://andreadepolis.github.io/</link>
     </image>
@@ -71,15 +71,15 @@ $$&lt;/p&gt;
 {{% fragment %}} Three {{% /fragment %}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One
+&lt;span class=&#34;fragment &#34; &gt;
+   One 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt;
+   **Two** 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-Three
-&lt;/span&gt;&lt;/p&gt;
+   Three 
+&lt;/span&gt;
 &lt;hr&gt;
 &lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
 &lt;ul&gt;
