@@ -67,6 +67,6 @@ email: "mailto:andrea.depolis.17@mail.wbs.ac.uk"
 highlight_name: false
 ---
 <div style="text-align: justify">
-I am a Ph.D. candidate in Finance & Econometrics at Warwick Business School. My research interests cover applied macroeconomics and financial econometrics, with a focus on non-linear and non-Gaussian time series, and density forecasting. I work under the supervision of Dr. <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer"> Ivan Petrella</a> and Prof. <a href="https://sites.google.com/site/anabgalvao/" target="_blank" rel="noopener noreferrer"> Ana Galv&atilde;o</a>.
+I am a Ph.D. candidate in Finance & Econometrics at Warwick Business School. My research interests cover applied macroeconomics and financial econometrics, with a focus on non-linear and non-Gaussian time series, and density forecasting. I work under the supervision of Prof. <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer"> Ivan Petrella</a> and Prof. <a href="https://sites.google.com/site/anabgalvao/" target="_blank" rel="noopener noreferrer"> Ana Galv&atilde;o</a>.
 During my first year of Ph.D. I visited the Monetary Policy and Economic Outlook Directorate of the Bank of Italy for a research internship. I am also a Senior Economist at <a href="https://www.now-casting.com/home" target="_blank" rel="noopener noreferrer"> NowCasting Economics Ltd</a>.
 </div>
