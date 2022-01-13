@@ -7,10 +7,10 @@ widget: featured
 headless: true
 
 # Order that this section appears on the page.
-weight: 80
+weight: 100
 
-title: Research
-subtitle: ''
+title: '   '
+subtitle: 'Work in progress'
 
 content:
   # Page type to display. E.g. post, talk, publication...
@@ -25,7 +25,7 @@ content:
   filters:
     tag: ''
     category: ''
-    publication_type: '1'
+    publication_type: '3'
     author: ''
     exclude_featured: true
 design:
