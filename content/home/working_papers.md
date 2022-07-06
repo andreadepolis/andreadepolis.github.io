@@ -2,6 +2,7 @@
 # An instance of the Pages widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: featured
+active: true
 
 # This file represents a page section.
 headless: true
@@ -9,8 +10,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 90
 
-title: '   '
-subtitle: 'Working papers'
+title: 'Working papers'
+subtitle: ''
 
 content:
   # Page type to display. E.g. post, talk, publication...
@@ -25,7 +26,7 @@ content:
   filters:
     tag: ''
     category: ''
-    publication_type: '2'
+    publication_type: '3'
     author: ''
     exclude_featured: true
 design:
@@ -34,5 +35,5 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 2
+  view: 4
 ---

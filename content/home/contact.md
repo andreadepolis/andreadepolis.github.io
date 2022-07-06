@@ -16,6 +16,10 @@ content:
   # Automatically link email and phone or display as text?
   autolink: true
 
+  coordinates:
+    latitude: '52.382519078815136'
+    longitude: '-1.5656340208166313'
+
 design:
   columns: '2'
 ---

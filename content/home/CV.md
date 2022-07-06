@@ -27,4 +27,4 @@ design:
   view: 3
 ---
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "https://drive.google.com/file/d/1j7XMyS4LnSXM-PZRoL8TTz7eAZqCu36Q/view?usp=sharing" "newtab" >}}CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "https://drive.google.com/file/d/1KOp6ru9QJH_397tsEs5U19EbfoOyZTTG/view?usp=sharing" "newtab" >}}CV{{< /staticref >}}.

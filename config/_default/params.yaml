@@ -5,10 +5,12 @@
 
 # Appearance
 
-theme: minimal
+theme: my_theme
+#theme_day: my_theme
+#theme_night: my_theme
 day_night: true
 font: ''
-font_size: L
+font_size: M
 
 # SEO
 
@@ -23,10 +25,10 @@ twitter: 'Depomtx'
 email: andrea.depolis.17@mail.wbs.ac.uk
 address:
   street: Doctoral Office 2.008, Warwick Business School<br/> University of Warwick, Scarman Rd
-  region:
   postcode: 'CV4 7AL'
   country: UK
   country_code: US
+  link: 'https://www.google.com/maps/place/Warwick+Business+School/@52.3823554,-1.5678173,17z/data=!3m1!4b1!4m5!3m4!1s0x48774ace199a3dbd:0x6d3da18bcf89f003!8m2!3d52.3823554!4d-1.5656233'
 contact_links:
   - icon: twitter
     icon_pack: fab
@@ -37,10 +39,10 @@ contact_links:
 
 main_menu:
   enable: true
-  align: l
+  align: r
   show_logo: true
   show_language: false
-  show_day_night: true
+  show_day_night: false
   show_search: true
   highlight_active_link: true
 
@@ -119,7 +121,7 @@ search:
     index_name: ''
     show_logo: false
 map:
-  provider: ''
+  provider: 'google'
   api_key: ''
   zoom: 15
 marketing:

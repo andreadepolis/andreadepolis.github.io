@@ -9,8 +9,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 100
 
-title: '   '
-subtitle: 'Work in progress'
+title: 'Work in progress'
+subtitle: ''
 
 content:
   # Page type to display. E.g. post, talk, publication...
@@ -25,7 +25,7 @@ content:
   filters:
     tag: ''
     category: ''
-    publication_type: '3'
+    publication_type: '0'
     author: ''
     exclude_featured: true
 design:
@@ -34,5 +34,5 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 2
+  view: 1
 ---
