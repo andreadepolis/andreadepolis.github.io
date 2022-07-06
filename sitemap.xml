@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://andreadepolis.github.io/publication-type/2/</loc>
+    <loc>https://andreadepolis.github.io/publication-type/0/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://andreadepolis.github.io/publication-type/3/</loc>
@@ -11,16 +11,31 @@
     <loc>https://andreadepolis.github.io/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://andreadepolis.github.io/publication/downsiderisk/</loc>
+    <loc>https://andreadepolis.github.io/authors/admin/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://andreadepolis.github.io/publication/momentum/</loc>
+    <loc>https://andreadepolis.github.io/authors/bianchi/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andreadepolis.github.io/authors/dellemonache/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andreadepolis.github.io/authors/petrella/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andreadepolis.github.io/authors/melosi/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andreadepolis.github.io/publication/downsiderisk/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://andreadepolis.github.io/publication_types/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://andreadepolis.github.io/publication/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andreadepolis.github.io/publication/momentum/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://andreadepolis.github.io/publication/inflationrisk/</loc>
@@ -33,6 +48,9 @@
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://andreadepolis.github.io/publication/exchagerate/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andreadepolis.github.io/authors/pietrunti/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://andreadepolis.github.io/admin/</loc>

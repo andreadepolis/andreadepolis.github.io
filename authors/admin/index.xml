@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Andrea De Polis</title>
-    <link>https://andreadepolis.github.io/publication/</link>
-      <atom:link href="https://andreadepolis.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
+    <title>Andrea De Polis</title>
+    <link>https://andreadepolis.github.io/authors/admin/</link>
+      <atom:link href="https://andreadepolis.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andrea De Polis</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Andrea De Polis</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://andreadepolis.github.io/media/icon_hu5bbdac8555476ddb5a94b8b904ae6f96_154295_512x512_fill_lanczos_center_3.png</url>
-      <title>Publications</title>
-      <link>https://andreadepolis.github.io/publication/</link>
+      <url>https://andreadepolis.github.io/authors/admin/avatar_hu97ef3157b766d7b277ce05b2bda29702_514669_270x270_fill_lanczos_center_3.png</url>
+      <title>Andrea De Polis</title>
+      <link>https://andreadepolis.github.io/authors/admin/</link>
     </image>
     
     <item>
