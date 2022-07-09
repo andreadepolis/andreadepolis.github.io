@@ -4,10 +4,10 @@ title: "Taming Momentum Crashes"
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
-authors:
-- Bianchi
-- admin
-- Petrella
+#authors:
+#- Bianchi
+#- admin
+#- Petrella
 
 
 # Author notes (optional)
@@ -19,7 +19,7 @@ date: "2022"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-01-01T00:00:00Z"
+publishDate: " "
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -32,7 +32,8 @@ publication_types: ["0"]
 
 abstract:
 # Summary. An optional shortened abstract. Add for example "in the media"
-#summary:
+summary: with with <a href="https://whitesphd.com" target="_blank" rel="noopener noreferrer"> Daniele Bianchi</a> (Queen Mary) and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a> (University of Warwick).
+
 
 tags: []
 

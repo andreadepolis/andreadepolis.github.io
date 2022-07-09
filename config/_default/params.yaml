@@ -5,12 +5,12 @@
 
 # Appearance
 
-theme: my_theme
+theme: my_theme2
 #theme_day: my_theme
 #theme_night: my_theme
 day_night: true
 font: ''
-font_size: M
+font_size: L
 
 # SEO
 
@@ -27,7 +27,7 @@ address:
   street: Doctoral Office 2.008, Warwick Business School<br/> University of Warwick, Scarman Rd
   postcode: 'CV4 7AL'
   country: UK
-  country_code: US
+  country_code: UK
   link: 'https://www.google.com/maps/place/Warwick+Business+School/@52.3823554,-1.5678173,17z/data=!3m1!4b1!4m5!3m4!1s0x48774ace199a3dbd:0x6d3da18bcf89f003!8m2!3d52.3823554!4d-1.5656233'
 contact_links:
   - icon: twitter
@@ -48,7 +48,7 @@ main_menu:
 
 # Localization
 
-date_format: 'Jan 2, 2006'
+date_format: ''
 time_format: '3:04 PM'
 address_format: en-us
 
@@ -91,8 +91,8 @@ avatar:
   gravatar: false
   shape: circle
 publications:
-  date_format: January 2006
-  citation_style: apa
+  date_format: ''
+  citation_style: mla
 projects:
   post_view: 2
   publication_view: 2

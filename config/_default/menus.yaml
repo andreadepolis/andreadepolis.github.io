@@ -9,10 +9,23 @@ main:
     weight: 10
   - name: CV
     url: '#CV'
-    weight: 30
+    weight: 20
   - name: Research
+    identifier: research
+    url: ''
+    weight: 30
+#  - name: Publications # Uncomment when needed
+#    parent: research
+#    url: '#publications'
+#    weight: 40
+  - name: Working papers
+    parent: research
     url: '#working_papers'
     weight: 50
+  - name: Work in progress
+    parent: research
+    url: '#work_in_progress'
+    weight: 60
   - name: Contact
     url: '#contact'
     weight: 70
