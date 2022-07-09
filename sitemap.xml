@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://andreadepolis.github.io/publication-type/0/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://andreadepolis.github.io/publication-type/3/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -14,31 +11,19 @@
     <loc>https://andreadepolis.github.io/authors/admin/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://andreadepolis.github.io/authors/bianchi/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://andreadepolis.github.io/authors/dellemonache/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://andreadepolis.github.io/authors/petrella/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://andreadepolis.github.io/authors/melosi/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://andreadepolis.github.io/publication/downsiderisk/</loc>
+    <loc>https://andreadepolis.github.io/workingpapers/downsiderisk/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://andreadepolis.github.io/publication_types/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://andreadepolis.github.io/publication/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://andreadepolis.github.io/publication/momentum/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://andreadepolis.github.io/publication/inflationrisk/</loc>
+    <loc>https://andreadepolis.github.io/workingpapers/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://andreadepolis.github.io/slides/</loc>
@@ -47,16 +32,37 @@
     <loc>https://andreadepolis.github.io/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://andreadepolis.github.io/publication/exchagerate/</loc>
+    <loc>https://andreadepolis.github.io/publication-type/2/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andreadepolis.github.io/workingpapers/exchagerate/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://andreadepolis.github.io/authors/pietrunti/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://andreadepolis.github.io/publication/aaa/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andreadepolis.github.io/publication/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://andreadepolis.github.io/admin/</loc>
+  </url><url>
+    <loc>https://andreadepolis.github.io/publication-type/0/</loc>
   </url><url>
     <loc>https://andreadepolis.github.io/categories/</loc>
   </url><url>
+    <loc>https://andreadepolis.github.io/authors/bianchi/</loc>
+  </url><url>
+    <loc>https://andreadepolis.github.io/authors/melosi/</loc>
+  </url><url>
+    <loc>https://andreadepolis.github.io/workinprogress/</loc>
+  </url><url>
     <loc>https://andreadepolis.github.io/tags/</loc>
+  </url><url>
+    <loc>https://andreadepolis.github.io/workinprogress/momentum/</loc>
+  </url><url>
+    <loc>https://andreadepolis.github.io/workinprogress/inflationrisk/</loc>
   </url>
 </urlset>
