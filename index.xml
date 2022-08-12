@@ -13,11 +13,29 @@
     </image>
     
     <item>
+      <title>Taming Momentum Crashes</title>
+      <link>https://andreadepolis.github.io/workingpapers/momentum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://andreadepolis.github.io/workingpapers/momentum/</guid>
+      <description>&lt;p&gt;We provide empirical evidence that the returns on US equity momentum exhibit a time-varying skewness which deepens during dramatic losses (crashes). As a result, the dynamics of the strategy expected returns reflects the time variation in {\it both} conditional volatility and skewness. This has first order implications for managing risks associated with momentum investing: an adjusted momentum portfolio which hedges in real time for both volatility and skewness risk outperforms benchmark constant and dynamic volatility-managed momentum strategies. This result holds for different levels of transaction costs and risk aversion and cannot be reconciled by the exposure to standard equity risk factors.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Modeling and Forecasting Macroeconomics Downside Risk</title>
       <link>https://andreadepolis.github.io/workingpapers/downsiderisk/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://andreadepolis.github.io/workingpapers/downsiderisk/</guid>
       <description>&lt;p&gt;We model secular trends and cyclical changes of the predictive density of US GDP growth. A substantial increase in downside risk to US economic growth emerges over the last 30 years, associated with the long-run growth slowdown started in the early 2000s. Conditional skewness moves procyclically, implying negatively skewed predictive densities ahead and during recessions, often anticipated by deteriorating financial conditions, while positively skewed distributions characterize expansions. The modelling framework ensures robustness to tail events, allows for either dense or sparse predictor designs, and delivers competitive out-of-sample (point, density and tail) forecasts, improving upon standard benchmarks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exchange Rate Dynamics and Unconventional Monetary Policies: It&#39;s All in the Shadows</title>
+      <link>https://andreadepolis.github.io/workingpapers/exchagerate/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://andreadepolis.github.io/workingpapers/exchagerate/</guid>
+      <description>&lt;p&gt;In this paper we estimate an open economy New-Keynesian model to investigate the impact of unconventional monetary policies on the exchange rate, focusing on those adopted since the Global Financial Crisis in the euro area and in the United States. To this end we replace effective, short-term, interest rates with shadow rates, which provide a measure of the monetary stance when the former reach their effective lower bound. We find that since 2009, unconventional monetary policies significantly affected the dynamics of the euro-dollar exchange rate both in nominal and real terms. While the stimulus provided by the Fed prevailed between 2011 and 2014, contributing to the weakening of the dollar, in most recent years the depreciation of the euro mainly reflected the measures adopted by the ECB.&lt;/p&gt;
 </description>
     </item>
     
@@ -151,15 +169,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Exchange Rate Dynamics and Unconventional Monetary Policies: It&#39;s All in the Shadows</title>
-      <link>https://andreadepolis.github.io/workingpapers/exchagerate/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://andreadepolis.github.io/workingpapers/exchagerate/</guid>
-      <description>&lt;p&gt;In this paper we estimate an open economy New-Keynesian model to investigate the impact of unconventional monetary policies on the exchange rate, focusing on those adopted since the Global Financial Crisis in the euro area and in the United States. To this end we replace effective, short-term, interest rates with shadow rates, which provide a measure of the monetary stance when the former reach their effective lower bound. We find that since 2009, unconventional monetary policies significantly affected the dynamics of the euro-dollar exchange rate both in nominal and real terms. While the stimulus provided by the Fed prevailed between 2011 and 2014, contributing to the weakening of the dollar, in most recent years the depreciation of the euro mainly reflected the measures adopted by the ECB.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Modeling and Forecasting Macroeconomics Downside Risk</title>
       <link>https://andreadepolis.github.io/publication/aaa/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -172,14 +181,6 @@ $$&lt;/p&gt;
       <link>https://andreadepolis.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://andreadepolis.github.io/admin/config.yml</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Taming Momentum Crashes</title>
-      <link>https://andreadepolis.github.io/workinprogress/momentum/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andreadepolis.github.io/workinprogress/momentum/</guid>
       <description></description>
     </item>
     

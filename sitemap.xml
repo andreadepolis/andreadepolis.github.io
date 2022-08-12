@@ -2,6 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://andreadepolis.github.io/workingpapers/momentum/</loc>
+  </url><url>
+    <loc>https://andreadepolis.github.io/workingpapers/downsiderisk/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andreadepolis.github.io/workingpapers/exchagerate/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://andreadepolis.github.io/publication-type/3/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -17,9 +25,6 @@
     <loc>https://andreadepolis.github.io/authors/petrella/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://andreadepolis.github.io/workingpapers/downsiderisk/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://andreadepolis.github.io/publication_types/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -33,9 +38,6 @@
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://andreadepolis.github.io/publication-type/2/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://andreadepolis.github.io/workingpapers/exchagerate/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://andreadepolis.github.io/authors/pietrunti/</loc>
@@ -60,8 +62,6 @@
     <loc>https://andreadepolis.github.io/workinprogress/</loc>
   </url><url>
     <loc>https://andreadepolis.github.io/tags/</loc>
-  </url><url>
-    <loc>https://andreadepolis.github.io/workinprogress/momentum/</loc>
   </url><url>
     <loc>https://andreadepolis.github.io/workinprogress/inflationrisk/</loc>
   </url>
