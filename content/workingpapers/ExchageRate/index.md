@@ -15,7 +15,7 @@ authors:
 
 date: "2019"
 doi: ""
-
+weight: 3
 # Schedule page publish date (NOT publication's date).
 publishDate: "2019-01-01T00:00:00Z"
 
