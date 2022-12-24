@@ -1,0 +1,28 @@
+# Theme metadata
+name = "My custom theme"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#950F48"
+
+# Menu
+menu_primary = "#FF9F25"
+menu_text = "#000"
+menu_text_active = "#950F48"
+menu_title = "#000"
+
+# Home sections
+home_section_odd = "#cac6c6"
+home_section_even = "#FF9F25"
+
+[dark]
+  link = "#FF9F25"
+  link_hover = "#FF9F25"
+  menu_primary = "#950F48"
+  menu_text = "#cac6c6"
+  menu_text_active = "#FF9F25"
+  menu_title = "#cac6c6"
+  home_section_odd = "#161616"
+  home_section_even = "#950F48"

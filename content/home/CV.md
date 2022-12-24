@@ -7,7 +7,7 @@ widget: featured
 headless: true
 
 # Order that this section appears on the page.
-weight: 10
+weight: 20
 
 title: CV
 subtitle: ""
@@ -27,4 +27,4 @@ design:
   view: 3
 ---
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "https://drive.google.com/file/d/1KOp6ru9QJH_397tsEs5U19EbfoOyZTTG/view?usp=sharing" "newtab" >}}CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "https://drive.google.com/file/d/1KOp6ru9QJH_397tsEs5U19EbfoOyZTTG/view?usp=sharing" "newtab" >}}<strong>CV</strong>{{< /staticref >}}.

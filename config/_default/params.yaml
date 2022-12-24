@@ -4,10 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 # Appearance
-#theme: my_theme2
-#theme_day: my_theme3
-#theme_night: my_theme2
-theme: minimal
+theme: newnew
 day_night: true
 font: ''
 font_size: L
@@ -36,16 +33,15 @@ contact_links:
     link: 'https://twitter.com/Depomtx'
 
 # Site header
-
 main_menu:
   enable: true
   align: r
   show_logo: true
-  show_language: false
+  show_language: true
   show_day_night: true
   show_search: true
   highlight_active_link: true
-
+  logo: logo.png
 # Localization
 
 date_format: ''
