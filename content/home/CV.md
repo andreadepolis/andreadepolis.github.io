@@ -27,4 +27,4 @@ design:
   view: 3
 ---
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "https://github.com/andreadepolis/MyCV/blob/614ad1d06bb7c5fbf3fadb6e209e78ffc26cdd16/cv.pdf" "newtab" >}}<strong>CV</strong>{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "https://github.com/andreadepolis/MyCV/blob/main/cv.pdf" "newtab" >}}<strong>CV</strong>{{< /staticref >}}.
