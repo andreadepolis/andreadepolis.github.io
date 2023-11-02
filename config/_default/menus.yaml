@@ -12,12 +12,12 @@ main:
     weight: 20
   - name: Research
     identifier: research
-    url: ''
+    url: '#publications'
     weight: 30
-#  - name: Publications # Uncomment when needed
-#    parent: research
-#    url: '#publications'
-#    weight: 40
+  - name: Publications
+    parent: research
+    url: '#publications'
+    weight: 40
   - name: Working papers
     parent: research
     url: '#working_papers'
@@ -26,9 +26,13 @@ main:
     parent: research
     url: '#work_in_progress'
     weight: 60
+  - name: Policy Work
+    parent: research
+    url: '#policywork'
+    weight: 70
   - name: Contact
     url: '#contact'
-    weight: 70
+    weight: 80
 
 
 # Link to a PDF of your resume/CV from the menu.

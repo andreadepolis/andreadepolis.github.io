@@ -33,7 +33,7 @@ publication_types: ["3"]
 
 abstract:
 # Summary. An optional shortened abstract. Add for example "in the media"
-summary: with with <a href="https://whitesphd.com" target="_blank" rel="noopener noreferrer"> Daniele Bianchi</a> (Queen Mary) and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a> (University of Warwick).
+summary: with <a href="https://whitesphd.com" target="_blank" rel="noopener noreferrer"> Daniele Bianchi</a> (Queen Mary) and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a> (University of Warwick).
 
 
 tags: []

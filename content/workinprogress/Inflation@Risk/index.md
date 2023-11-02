@@ -27,7 +27,7 @@ publication_types: ["0"]
 
 abstract:
 # Summary. An optional shortened abstract. Add for example "in the media"
-summary: with with <a href="https://sites.google.com/site/lemelosi/" target="_blank" rel="noopener noreferrer"> Leonardo Melosi</a> (Chicago FED) and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a> (University of Warwick).
+summary: with <a href="https://sites.google.com/site/lemelosi/" target="_blank" rel="noopener noreferrer"> Leonardo Melosi</a> (Chicago FED) and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a> (University of Warwick).
 
 tags: []
 

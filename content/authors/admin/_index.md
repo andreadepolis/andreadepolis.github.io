@@ -22,13 +22,13 @@ education:
   courses:
   - course: PhD in Finance & Econometrics
     institution: Warwick Business School
-    year: 2017-present
+    year: 2023
   - course: MSc in Economics
     institution: University of Rome Tor Vergata
-    year: 2015-2017
+    year: 2017
   - course: BSc in Economics
     institution: Roma Tre University
-    year: 2012-2014
+    year: 2015
 
 # Interests to show in About widget
 interests:
@@ -56,7 +56,7 @@ social:
 # and uncomment the lines below.
 # - icon: cv
 #   icon_pack: ai
-#    link: uploads/resume.pdf
+#   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "mailto:andrea.depolis.17@mail.wbs.ac.uk"
@@ -67,6 +67,5 @@ email: "mailto:andrea.depolis.17@mail.wbs.ac.uk"
 highlight_name: false
 ---
 <div style="text-align: justify">
-I am a Ph.D. candidate in Finance & Econometrics at <a href="https://www.wbs.ac.uk" target="_blank" rel="noopener noreferrer"> Warwick Business School</a>. My research interests cover applied macroeconomics and financial econometrics, with a focus on non-linear and non-Gaussian time series, and density forecasting. I work under the supervision of Prof. <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer"> Ivan Petrella</a> and Prof. <a href="https://sites.google.com/site/anabgalvao/" target="_blank" rel="noopener noreferrer"> Ana Galv&atilde;o</a>.
-In 2022 I worked as Ph.D. Trainee at the DG-Research of the <a href="https://www.ecb.europa.eu/home/html/index.en.html" target="_blank" rel="noopener noreferrer"> European Central Bank</a>, and in 2018 I spent three months at the Monetary Policy and Economic Outlook Directorate of the <a href="https://www.bancaditalia.it/homepage/index.html?com.dotmarketing.htmlpage.language=1" target="_blank" rel="noopener noreferrer">Bank of Italy</a> for a research internship. I was also a Senior Economist at <a href="https://www.now-casting.com/home" target="_blank" rel="noopener noreferrer"> NowCasting Economics Ltd</a>.
+Welcome to my research website.<br> I am a PhD candidate in Finance & Econometrics at <a href="https://www.wbs.ac.uk" target="_blank" rel="noopener noreferrer"> Warwick Business School</a>. My research interests cover applied macroeconomics and financial econometrics, with a focus on non-linear and non-Gaussian time series, and density forecasting. I worked as Ph.D. Trainee at the DG-Research of the <a href="https://www.ecb.europa.eu/home/html/index.en.html" target="_blank" rel="noopener noreferrer"> European Central Bank</a>, and at the Monetary Policy and Economic Outlook Directorate of the <a href="https://www.bancaditalia.it/homepage/index.html?com.dotmarketing.htmlpage.language=1" target="_blank" rel="noopener noreferrer">Bank of Italy</a>. I was also a Senior Economist at <a href="https://www.now-casting.com/home" target="_blank" rel="noopener noreferrer"> NowCasting Economics Ltd</a>.
 </div>
