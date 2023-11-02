@@ -13,6 +13,15 @@
     </image>
     
     <item>
+      <title>Modeling and Forecasting Macroeconomics Downside Risk</title>
+      <link>https://andreadepolis.github.io/publication/downsiderisk.html</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://andreadepolis.github.io/publication/downsiderisk.html</guid>
+      <description>&lt;p&gt;We model secular trends and cyclical changes of the predictive density of US GDP growth. A substantial increase in downside risk to US economic growth emerges over the last 30 years, associated with the long-run growth slowdown started in the early 2000s. Conditional skewness moves procyclically, implying negatively skewed predictive densities ahead and during recessions, often anticipated by deteriorating financial conditions, while positively skewed distributions characterize expansions. The modelling framework ensures robustness to tail events, allows for either dense or sparse predictor designs, and delivers competitive out-of-sample (point, density and tail) forecasts, improving upon standard benchmarks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Taming Momentum Crashes</title>
       <link>https://andreadepolis.github.io/workingpapers/momentum.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -27,15 +36,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://andreadepolis.github.io/policywork/suerfdownsiderisk.html</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Modeling and Forecasting Macroeconomics Downside Risk</title>
-      <link>https://andreadepolis.github.io/publication/downsiderisk.html</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://andreadepolis.github.io/publication/downsiderisk.html</guid>
-      <description>&lt;p&gt;We model secular trends and cyclical changes of the predictive density of US GDP growth. A substantial increase in downside risk to US economic growth emerges over the last 30 years, associated with the long-run growth slowdown started in the early 2000s. Conditional skewness moves procyclically, implying negatively skewed predictive densities ahead and during recessions, often anticipated by deteriorating financial conditions, while positively skewed distributions characterize expansions. The modelling framework ensures robustness to tail events, allows for either dense or sparse predictor designs, and delivers competitive out-of-sample (point, density and tail) forecasts, improving upon standard benchmarks.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
