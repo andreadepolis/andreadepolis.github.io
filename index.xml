@@ -5,7 +5,7 @@
     <link>https://andreadepolis.github.io/</link>
       <atom:link href="https://andreadepolis.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Andrea De Polis</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Andrea De Polis</copyright><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Andrea De Polis</copyright><lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://andreadepolis.github.io/media/icon_hu5bbdac8555476ddb5a94b8b904ae6f96_154295_512x512_fill_lanczos_center_3.png</url>
       <title>Andrea De Polis</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Modeling and Forecasting Macroeconomics Downside Risk</title>
       <link>https://andreadepolis.github.io/publication/downsiderisk.html</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://andreadepolis.github.io/publication/downsiderisk.html</guid>
       <description>&lt;p&gt;We model secular trends and cyclical changes of the predictive density of US GDP growth. A substantial increase in downside risk to US economic growth emerges over the last 30 years, associated with the long-run growth slowdown started in the early 2000s. Conditional skewness moves procyclically, implying negatively skewed predictive densities ahead and during recessions, often anticipated by deteriorating financial conditions, while positively skewed distributions characterize expansions. The modelling framework ensures robustness to tail events, allows for either dense or sparse predictor designs, and delivers competitive out-of-sample (point, density and tail) forecasts, improving upon standard benchmarks.&lt;/p&gt;
 </description>
