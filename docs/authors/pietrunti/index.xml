@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mario Pietrunti | Andrea De Polis</title>
+    <link>https://andreadepolis.github.io/authors/pietrunti.html</link>
+      <atom:link href="https://andreadepolis.github.io/authors/pietrunti/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mario Pietrunti</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Andrea De Polis</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://andreadepolis.github.io/media/icon_hu5bbdac8555476ddb5a94b8b904ae6f96_154295_512x512_fill_lanczos_center_3.png</url>
+      <title>Mario Pietrunti</title>
+      <link>https://andreadepolis.github.io/authors/pietrunti.html</link>
+    </image>
+    
+    <item>
+      <title>Exchange Rate Dynamics and Unconventional Monetary Policies: It&#39;s All in the Shadows</title>
+      <link>https://andreadepolis.github.io/workingpapers/exchagerate.html</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://andreadepolis.github.io/workingpapers/exchagerate.html</guid>
+      <description>&lt;p&gt;In this paper we estimate an open economy New-Keynesian model to investigate the impact of unconventional monetary policies on the exchange rate, focusing on those adopted since the Global Financial Crisis in the euro area and in the United States. To this end we replace effective, short-term, interest rates with shadow rates, which provide a measure of the monetary stance when the former reach their effective lower bound. We find that since 2009, unconventional monetary policies significantly affected the dynamics of the euro-dollar exchange rate both in nominal and real terms. While the stimulus provided by the Fed prevailed between 2011 and 2014, contributing to the weakening of the dollar, in most recent years the depreciation of the euro mainly reflected the measures adopted by the ECB.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

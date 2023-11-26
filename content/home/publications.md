@@ -1,9 +1,8 @@
 ---
 # An instance of the Pages widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
+widget: portfolio
 active: true
-widget: pages
-
 
 # This file represents a page section.
 headless: true
@@ -25,7 +24,7 @@ content:
   order: desc
   # Filter on criteria
   filters:
-    publication_type: '2'
+    publication_type: "1"
     author: ''
     exclude_featured: false
 design:
@@ -35,6 +34,6 @@ design:
   #   3 = Card
   #   4 = Citation (publication only)
   #view: 4
-  view: 4
+  view: 2
 
 ---

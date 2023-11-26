@@ -40,14 +40,11 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://www.bancaditalia.it/pubblicazioni/temi-discussione/2019/2019-1231/en_tema_1231.pdf'
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
+links:
+- icon_pack: fas
+  icon: file
+  name: Working Paper
+  url: 'https://www.bancaditalia.it/pubblicazioni/temi-discussione/2019/2019-1231/en_tema_1231.pdf'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

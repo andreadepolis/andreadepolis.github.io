@@ -45,15 +45,10 @@ featured: true
 links:
 #- name:
 #  url:
-
-url_pdf: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4182040'
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
+- icon_pack: fas
+  icon: file
+  name: Working Paper
+  url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4182040'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
