@@ -1,5 +1,5 @@
 ---
-title: "The Ever-Changing Challenges to Price Stability"
+title: "Mixed Frequency Functional VARs for Nowcasting and Structural Analysis"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -27,7 +27,7 @@ publication_types: ["0"]
 
 abstract:
 # Summary. An optional shortened abstract. Add for example "in the media"
-summary: with <a href="https://sites.google.com/site/lemelosi/" target="_blank" rel="noopener noreferrer"> Leonardo Melosi</a> (University of Warwick) and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a> (University of Warwick).
+summary: with <a href="https://sites.google.com/site/garykoop/home" target="_blank" rel="noopener noreferrer"> Gary Koop</a> (Univeristy of Strathclyde), <a href="https://sites.google.com/view/stuartgmcintyre/home" target="_blank" rel="noopener noreferrer">Stuart McIntyre</a> (Univeristy of Strathclyde), <a href="https://www.clevelandfed.org/people/profiles/m/mitchell-james" target="_blank" rel="noopener noreferrer">James Mitchell</a> (Cleveand FRB), and <a href="https://pingwu.org" target="_blank" rel="noopener noreferrer">Ping Wu</a> (Univeristy of Strathclyde).
 
 tags: []
 

@@ -19,9 +19,9 @@ publishDate: "2023-10-01T00:00:00Z"
 publication_types: "1"
 
 # Publication name and optional abbreviated publication name.
-publication: _Journal of Business & Economic Statistics_ (forthcoming)
+publication: _Journal of Business & Economic Statistics_ (2023)
 
-summary: <font size="-0">with <a href="https://sites.google.com/site/dellemonachedavide/home" target="_blank" rel="noopener noreferrer"> Davide Delle Monache</a> (Bank of Italy) and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a> (University of Warwick).</font> <br> <b>_Journal of Business & Economic Statistics_</b> (forthcoming).
+summary: <font size="-0">with <a href="https://sites.google.com/site/dellemonachedavide/home" target="_blank" rel="noopener noreferrer"> Davide Delle Monache</a> (Bank of Italy) and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a> (University of Warwick).</font> <br> <b>_Journal of Business & Economic Statistics_</b> (2023).
 
 featured: true
 
@@ -35,6 +35,11 @@ links:
   icon: file
   name: Working Paper
   url: publication/downsiderisk/DMDPP23.pdf
+
+- icon_pack: fas
+  icon: code
+  name: Replication codes
+  url: https://github.com/andreadepolis/DownsideRisk_JBES23
 
 # Featured image
 image:

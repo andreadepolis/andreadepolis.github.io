@@ -6,12 +6,15 @@ title: Andrea De Polis
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. candidate <br/> Finance & Econometrics
+role: Research Associate
 
 # Organizations/Affiliations to show in About widget
 organizations:
- - name: Warwick Business School
-   url: https://www.wbs.ac.uk/
+ - name: ESCoE
+   url: https://www.escoe.ac.uk
+ - name: University of Strathclyde
+   url: https://www.strath.ac.uk/business/economics/
+
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include macroeconomics, non-linear and non-Gaussian time series, forecasting and empirical asset pricing.
@@ -32,9 +35,9 @@ education:
 
 # Interests to show in About widget
 interests:
-- Applied Macroeconomics
+- Macroeconomics
+- Bayesian Econometrics
 - Non-Gaussian time series
-- Forecasting
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -59,7 +62,7 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "mailto:andrea.depolis.17@mail.wbs.ac.uk"
+email: "mailto:andrea.de-polis@strath.ac.uk"
 
 # {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 
@@ -67,5 +70,5 @@ email: "mailto:andrea.depolis.17@mail.wbs.ac.uk"
 highlight_name: false
 ---
 <div style="text-align: justify">
-Welcome to my research website.<br> I am a PhD candidate in Finance & Econometrics at <a href="https://www.wbs.ac.uk" target="_blank" rel="noopener noreferrer"> Warwick Business School</a>. My research interests cover applied macroeconomics and financial econometrics, with a focus on non-linear and non-Gaussian time series, and density forecasting. I worked as Ph.D. Trainee at the DG-Research of the <a href="https://www.ecb.europa.eu/home/html/index.en.html" target="_blank" rel="noopener noreferrer"> European Central Bank</a>, and at the Monetary Policy and Economic Outlook Directorate of the <a href="https://www.bancaditalia.it/homepage/index.html?com.dotmarketing.htmlpage.language=1" target="_blank" rel="noopener noreferrer">Bank of Italy</a>. I was also a Senior Economist at <a href="https://www.now-casting.com/home" target="_blank" rel="noopener noreferrer"> NowCasting Economics Ltd</a>.
+Welcome to my research website.<br> I am a Research Associate at the <a href="https://www.escoe.ac.uk" target="_blank">Economic Statistics Centre of Excellence</a> (ESCoE) and at the Department of Economics of the <a href="https://www.strath.ac.uk/business/economics/" target+""> University of Strathclyde</a>. I recently obtained my PhD in Finance & Econometrics from <a href="https://www.wbs.ac.uk" target="_blank" rel="noopener noreferrer"> Warwick Business School</a>. My research interests cover Bayesian econometrics, applied macroeconomics and financial econometrics, with a focus on non-linear and non-Gaussian time series. Previously, I worked as Ph.D. Trainee at the DG-Research of the <a href="https://www.ecb.europa.eu/home/html/index.en.html" target="_blank" rel="noopener noreferrer"> European Central Bank</a>, and at the Monetary Policy and Economic Outlook Directorate of the <a href="https://www.bancaditalia.it/homepage/index.html?com.dotmarketing.htmlpage.language=1" target="_blank" rel="noopener noreferrer">Bank of Italy</a>. I was also a Senior Economist at <a href="https://www.now-casting.com/home" target="_blank" rel="noopener noreferrer"> NowCasting Economics Ltd</a>.
 </div>

@@ -19,13 +19,13 @@ twitter: 'Depomtx'
 
 # Contact (edit or remove options as required)
 
-email: andrea.depolis.17@mail.wbs.ac.uk
-address:
-  street: Doctoral Office 2.008, Warwick Business School<br/> University of Warwick, Scarman Rd
-  postcode: 'CV4 7AL'
-  country: UK
-  country_code: UK
-  link: 'https://www.google.com/maps/place/Warwick+Business+School/@52.3823554,-1.5678173,17z/data=!3m1!4b1!4m5!3m4!1s0x48774ace199a3dbd:0x6d3da18bcf89f003!8m2!3d52.3823554!4d-1.5656233'
+email: andrea.de-polis@strath.ac.uk
+#address:
+#  street: 
+#  postcode: 
+#  country: 
+#  country_code: UK
+#  link: 
 contact_links:
   - icon: twitter
     icon_pack: fab

@@ -6,6 +6,7 @@ light = true
 
 # Primary
 primary = "#950F48"
+link = "#950F48"
 
 # Menu
 menu_primary = "#FF9F25"
@@ -25,4 +26,4 @@ home_section_even = "#FF9F25"
   menu_text_active = "#FF9F25"
   menu_title = "#cac6c6"
   home_section_odd = "#161616"
-  home_section_even = "#950F48"
+  home_section_even = "#c2145d"
