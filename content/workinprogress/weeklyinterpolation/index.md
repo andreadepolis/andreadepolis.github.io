@@ -1,5 +1,5 @@
 ---
-title: "Mixed Frequency Functional VARs for Nowcasting and Structural Analysis"
+title: "Real-Time Forecasting with High-Frequency Seasonal Patterns"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -8,7 +8,7 @@ title: "Mixed Frequency Functional VARs for Nowcasting and Structural Analysis"
 #- admin
 #- Melosi
 #- Petrella
-weight: 7
+weight: 10
 # Author notes (optional)
 #author_notes:
 #- "Equal contribution"
@@ -27,7 +27,7 @@ publication_types: ["0"]
 
 abstract:
 # Summary. An optional shortened abstract. Add for example "in the media"
-summary: with <a href="https://sites.google.com/site/garykoop/home" target="_blank" rel="noopener noreferrer"> Gary Koop</a> (Univeristy of Strathclyde), <a href="https://sites.google.com/view/stuartgmcintyre/home" target="_blank" rel="noopener noreferrer">Stuart McIntyre</a> (Univeristy of Strathclyde), and <a href="https://www.clevelandfed.org/people/profiles/m/mitchell-james" target="_blank" rel="noopener noreferrer">James Mitchell</a> (Cleveand FRB).
+summary: with <a href="https://sites.google.com/site/anabgalvao/" target="_blank" rel="noopener noreferrer">Ana Galvāo</a> (Bloomber LP) and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a> (Collegio Carlo Alberto).
 
 tags: []
 
@@ -74,4 +74,4 @@ image:
 share: false  # Show social sharing links?
 profile: false
 ---
-We propose a functional-Vector Autoregressive model (fVAR) to nowcast the dynamics of the whole income distribution in the United Kingdom. British survey data about household income are published by the Office for National Statistics (ONS) with considerable delay, making them un- appealing for policy evaluation. Our approach produces accurate predictions of past, current and future income distributions. We introduce a framework to rank the predictive ability of forecasting models when the target object is a full density, rather than a single realization. Based on this novel loss-function, we establish that out fVAR provides superior forecasting accuracy with respect to com- peting models. Our model further allows to carry out structural analysis on the income distribution within a traditional VAR setting.
+In this paper, we propose a novel, comprehensive approach to interpolate low-frequency of- ficial statistics from high-frequency data. Differently from standard mixed-frequency dynamic factor models, commonly used for nowcasting, we leverage on recent developments in nowcasting modeling to build a methodology that can easily deal with outlier detection, complex calendar patterns and temporal disaggregation. We deploy the new methodology to introduce a new weekly tracker for real activity in the United Kingdom based on the several new, high-frequency data provided by the Office for National Statistics (ONS). Results suggest that these new data sources, when properly managed via our model, introduce significant improvements in the predictive accuracy of traditional nowcasting models, generally based on lower-frequency data, in terms of both point and density forecasts.

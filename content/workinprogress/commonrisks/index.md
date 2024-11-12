@@ -1,19 +1,12 @@
 ---
-title: "Mixed Frequency Functional VARs for Nowcasting and Structural Analysis"
+title: "Common Risks and Common Gaps"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 #authors:
 #- admin
-#- Melosi
-#- Petrella
-weight: 7
-# Author notes (optional)
-#author_notes:
-#- "Equal contribution"
-#- "Equal contribution"
-
+weight: 1
 #date: "2022"
 #doi: "
 # Publication type.
@@ -25,9 +18,9 @@ publication_types: ["0"]
 #publication: In *Wowchemy Conference*
 #publication_short: In *ICW*
 
-abstract:
+abstract:   
 # Summary. An optional shortened abstract. Add for example "in the media"
-summary: with <a href="https://sites.google.com/site/garykoop/home" target="_blank" rel="noopener noreferrer"> Gary Koop</a> (Univeristy of Strathclyde), <a href="https://sites.google.com/view/stuartgmcintyre/home" target="_blank" rel="noopener noreferrer">Stuart McIntyre</a> (Univeristy of Strathclyde), and <a href="https://www.clevelandfed.org/people/profiles/m/mitchell-james" target="_blank" rel="noopener noreferrer">James Mitchell</a> (Cleveand FRB).
+summary: "   "
 
 tags: []
 
@@ -74,4 +67,4 @@ image:
 share: false  # Show social sharing links?
 profile: false
 ---
-We propose a functional-Vector Autoregressive model (fVAR) to nowcast the dynamics of the whole income distribution in the United Kingdom. British survey data about household income are published by the Office for National Statistics (ONS) with considerable delay, making them un- appealing for policy evaluation. Our approach produces accurate predictions of past, current and future income distributions. We introduce a framework to rank the predictive ability of forecasting models when the target object is a full density, rather than a single realization. Based on this novel loss-function, we establish that out fVAR provides superior forecasting accuracy with respect to com- peting models. Our model further allows to carry out structural analysis on the income distribution within a traditional VAR setting.
+The Okun’s law puts forward a relation between the output and the unemployment gaps. I provide evidence of common non-linearities across the two quantities, highlighting common dynamics in higher order moments. I estimate a joint model for the dynamics of the marginal densities of the output gap and the unemployment gap, which can capture potential non-Gaussian features of the data through the time variation of the mean, variance and skewness. I postulate the Okun’s relation to hold for the predictive densities by assuming common cyclical components for the moments. I document a considerable reduction in the uncertainty surrounding estimates of the natural rate of unemployment, or NAIRU, in the US, as compared to estimates based on symmetric models. Simi- larly, accounting for time-varying skewness of the output delivers estimates of the output gap that are less uncertain and more stable over time with respect to CBO projections.

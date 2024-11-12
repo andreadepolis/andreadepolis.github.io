@@ -26,9 +26,9 @@ publication_types: ["3"]
 #publication: In *Wowchemy Conference*
 #publication_short: In *ICW*
 
-abstract:
+abstract: 
 # Summary. An optional shortened abstract. Add for example "in the media"
-summary: with <a href="https://sites.google.com/site/lemelosi/" target="_blank" rel="noopener noreferrer"> Leonardo Melosi</a> (University of Warwick) and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a> (University of Warwick).
+summary: with <a href="https://sites.google.com/site/lemelosi/" target="_blank" rel="noopener noreferrer"> Leonardo Melosi</a> (University of Warwick) and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a> (Collegio Carlo Alberto).
 
 tags: []
 
@@ -75,11 +75,4 @@ image:
 share: false  # Show social sharing links?
 profile: false
 ---
-Inflation risk in U.S. data varies considerably over time and has often been asymmetric. A
-model incorporating time-varying asymmetric risk achieves better forecasting accuracy than a
-state-of-the-art symmetric model, providing results comparable to the performance of profes-
-sional forecasters. The optimal monetary strategy calls for the Central Bank to counterbalance
-shifts in the direction of inflation risk by adjusting its inflation target –a strategy we term risk-
-adjusted inflation targeting (RAIT). By adjusting the modal inflation scenario, the Central
-Bank can realign average inflation with its desired long-run inflation objective and effectively
-anchor the private sector’s expectations.
+Inflation risk in U.S. data varies significantly over time and often exhibits asymmetry. We introduce an econometric model with time-varying asymmetric risk that outperforms a state-of-the-art symmetric model in forecasting accuracy and achieves results comparable to those of professional forecasters. Skewness in the inflation distribution introduces a wedge between the expected value of future inflation and the modal forecast. We show that this wedge can be formalized within a linear-quadratic DSGE model by deriving the \textit{beliefs representation of asymmetric risk} of that model. This approach enables us to solve analytically for optimal monetary policy in stylized models and to explore the implications of skewed risk on macroeconomic outcomes in quantitative DSGE models. The optimal policy requires the central bank to take measures that shift the modal forecasts for inflation in the opposite direction of the asymmetric risk. We demonstrate the practical implications of this policy approach by aligning the beliefs representation of a quantitative DSGE model to reflect the inflation skewness estimated by the econometric model using U.S. data. 

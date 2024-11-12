@@ -1,5 +1,5 @@
 ---
-title: "Mixed Frequency Functional VARs for Nowcasting and Structural Analysis"
+title: "Testing for Conditional Skewness with Epsilon-Skew-t Distributions."
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -8,7 +8,7 @@ title: "Mixed Frequency Functional VARs for Nowcasting and Structural Analysis"
 #- admin
 #- Melosi
 #- Petrella
-weight: 7
+weight: 1
 # Author notes (optional)
 #author_notes:
 #- "Equal contribution"
@@ -27,7 +27,7 @@ publication_types: ["0"]
 
 abstract:
 # Summary. An optional shortened abstract. Add for example "in the media"
-summary: with <a href="https://sites.google.com/site/garykoop/home" target="_blank" rel="noopener noreferrer"> Gary Koop</a> (Univeristy of Strathclyde), <a href="https://sites.google.com/view/stuartgmcintyre/home" target="_blank" rel="noopener noreferrer">Stuart McIntyre</a> (Univeristy of Strathclyde), and <a href="https://www.clevelandfed.org/people/profiles/m/mitchell-james" target="_blank" rel="noopener noreferrer">James Mitchell</a> (Cleveand FRB).
+summary: "   "
 
 tags: []
 
@@ -74,4 +74,4 @@ image:
 share: false  # Show social sharing links?
 profile: false
 ---
-We propose a functional-Vector Autoregressive model (fVAR) to nowcast the dynamics of the whole income distribution in the United Kingdom. British survey data about household income are published by the Office for National Statistics (ONS) with considerable delay, making them un- appealing for policy evaluation. Our approach produces accurate predictions of past, current and future income distributions. We introduce a framework to rank the predictive ability of forecasting models when the target object is a full density, rather than a single realization. Based on this novel loss-function, we establish that out fVAR provides superior forecasting accuracy with respect to com- peting models. Our model further allows to carry out structural analysis on the income distribution within a traditional VAR setting.
+I develop a parametric test to detect the presence of instability in the third moment of time series data. The test is based on the score function of the flexible epsilon-Skew-t distribution, and belongs to the class of Lagrange Multiplier tests. The test presents appropriate asymptotic properties, as evaluated by means of an extensive Monte Carlo analysis. When applied to the three asset pricing anomalies of Fama and French (1993), the test points at an overwelimg evidence of con- ditional non-Gaussianity at the daily frequency, whereas weaker results are observed at the monthly frequency. These results should be taken as a warning of possible misspecification of asset pricing models based on symmetric likelihoods.
