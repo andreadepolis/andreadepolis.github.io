@@ -40,7 +40,7 @@ links:
 - icon_pack: fas
   icon: file
   name: Working Paper
-  url: workingpapers/inflationrisk/DPMP2024.pdf
+  url: https://andreadepolis.github.io/olPdf/DPMP2024.pdf
 
 image:
   caption: ""

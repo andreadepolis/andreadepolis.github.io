@@ -34,7 +34,7 @@ links:
 - icon_pack: fas
   icon: file
   name: Working Paper
-  url: publication/downsiderisk/DMDPP23.pdf
+  url: https://andreadepolis.github.io/olPdf/DMDPP2024.pdf
 
 - icon_pack: fas
   icon: code

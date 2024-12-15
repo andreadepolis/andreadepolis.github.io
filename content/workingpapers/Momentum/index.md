@@ -1,5 +1,5 @@
 ---
-title: "Taming Momentum Crashes"
+title: "Time-Varying Skewness and Momentum Crashes"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -48,7 +48,7 @@ links:
 - icon_pack: fas
   icon: file
   name: Working Paper
-  url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4182040'
+  url: https://andreadepolis.github.io/olPdf/BDPP2024.pdf
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
