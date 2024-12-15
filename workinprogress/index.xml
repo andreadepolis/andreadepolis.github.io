@@ -22,15 +22,6 @@
     </item>
     
     <item>
-      <title>Testing for Conditional Skewness with Epsilon-Skew-t Distributions.</title>
-      <link>https://andreadepolis.github.io/workinprogress/skewtest.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andreadepolis.github.io/workinprogress/skewtest.html</guid>
-      <description>&lt;p&gt;I develop a parametric test to detect the presence of instability in the third moment of time series data. The test is based on the score function of the flexible epsilon-Skew-t distribution, and belongs to the class of Lagrange Multiplier tests. The test presents appropriate asymptotic properties, as evaluated by means of an extensive Monte Carlo analysis. When applied to the three asset pricing anomalies of Fama and French (1993), the test points at an overwelimg evidence of con- ditional non-Gaussianity at the daily frequency, whereas weaker results are observed at the monthly frequency. These results should be taken as a warning of possible misspecification of asset pricing models based on symmetric likelihoods.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>The Ever-Changing Challenges to Price Stability</title>
       <link>https://andreadepolis.github.io/workinprogress/everchanging.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

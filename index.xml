@@ -31,15 +31,6 @@
     </item>
     
     <item>
-      <title>Testing for Conditional Skewness with Epsilon-Skew-t Distributions.</title>
-      <link>https://andreadepolis.github.io/workinprogress/skewtest.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andreadepolis.github.io/workinprogress/skewtest.html</guid>
-      <description>&lt;p&gt;I develop a parametric test to detect the presence of instability in the third moment of time series data. The test is based on the score function of the flexible epsilon-Skew-t distribution, and belongs to the class of Lagrange Multiplier tests. The test presents appropriate asymptotic properties, as evaluated by means of an extensive Monte Carlo analysis. When applied to the three asset pricing anomalies of Fama and French (1993), the test points at an overwelimg evidence of con- ditional non-Gaussianity at the daily frequency, whereas weaker results are observed at the monthly frequency. These results should be taken as a warning of possible misspecification of asset pricing models based on symmetric likelihoods.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>The Dynamics of Macroeconomic Downside Risk</title>
       <link>https://andreadepolis.github.io/policywork/suerfdownsiderisk.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -57,11 +48,27 @@
     </item>
     
     <item>
-      <title>Taming Momentum Crashes</title>
+      <title>Time-Varying Skewness and Momentum Crashes</title>
       <link>https://andreadepolis.github.io/workingpapers/momentum.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://andreadepolis.github.io/workingpapers/momentum.html</guid>
       <description>&lt;p&gt;We provide empirical evidence that the returns on US equity momentum exhibit a time-varying skewness which deepens during dramatic losses (crashes). As a result, the dynamics of the strategy expected returns reflects the time variation in {\it both} conditional volatility and skewness. This has first order implications for managing risks associated with momentum investing: an adjusted momentum portfolio which hedges in real time for both volatility and skewness risk outperforms benchmark constant and dynamic volatility-managed momentum strategies. This result holds for different levels of transaction costs and risk aversion and cannot be reconciled by the exposure to standard equity risk factors.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Testing for Conditional Skewness with _Epsilon-Skew-t_ Distributions.</title>
+      <link>https://andreadepolis.github.io/workingpapers/skewt.html</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://andreadepolis.github.io/workingpapers/skewt.html</guid>
+      <description>&lt;p&gt;I develop a parametric test to detect the presence of instability in the third moment of
+time series data. The test is based on the score function of the flexible &lt;em&gt;Epsilon-Skew-t&lt;/em&gt; distribution,
+and belongs to the class of Lagrange Multiplier tests. The test presents appropriate asymptotic
+properties, as evaluated by means of an extensive Monte Carlo analysis. When applied to the three
+asset pricing anomalies of Fama and French (1993), the test points at an overwelimg evidence of con-
+ditional non-Gaussianity at the daily frequency, whereas weaker results are observed at the monthly
+frequency. These results should be taken as a warning of possible misspecification of asset pricing
+models based on symmetric likelihoods.&lt;/p&gt;
 </description>
     </item>
     
