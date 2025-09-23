@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Andrea De Polis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-primary: #fafafa;
+            --bg-secondary: #ffffff;
+            --text-primary: #212121;
+            --text-secondary: #424242;
+            --accent-primary: #1976d2;
+            --accent-secondary: #1565c0;
+            --header-bg: #212121;
+            --nav-bg: #424242;
+            --border-color: #e0e0e0;
+            --shadow: rgba(0,0,0,0.08);
+        }
+        
+        [data-theme="dark"] {
+            --bg-primary: #2a2a2a;
+            --bg-secondary: #1e1e1e;
+            --text-primary: #e0e0e0;
+            --text-secondary: #b0b0b0;
+            --accent-primary: #42a5f5;
+            --accent-secondary: #64b5f6;
+            --header-bg: #000000;
+            --nav-bg: #1a1a1a;
+            --border-color: #333333;
+            --shadow: rgba(0,0,0,0.3);
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: var(--header-bg);
+            color: white;
+            padding: 0 !important;
+            text-align: center;
+            height: auto;
+            min-height: auto;
+            font-size: 0.8rem;
+            line-height: 1;
+            transition: background-color 0.3s ease;
+        }
+        nav {
+            background: var(--nav-bg);
+            padding: 0 !important;
+            height: auto;
+            min-height: auto;
+            font-size: 1rem;
+            line-height: 1;
+            transition: background-color 0.3s ease;
+            position: relative;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav li {
+            margin: 0 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover, nav a.active {
+            background-color: var(--accent-primary);
+        }
+        main {
+            background: var(--bg-secondary);
+            padding: 0.25rem;
+            margin: 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px var(--shadow);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        .about-content {
+            display: flex;
+            gap: 2rem;
+            align-items: flex-start;
+        }
+        .about-text {
+            flex: 2;
+        }
+        .about-sidebar {
+            flex: 1;
+            min-width: 300px;
+        }
+        .profile-panel {
+            background: var(--bg-primary);
+            padding: 2rem;
+            border-radius: 20px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 8px 24px var(--shadow);
+            text-align: center;
+        }
+        .profile-image {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            margin: 0 auto 1.5rem auto;
+            box-shadow: 0 6px 20px var(--shadow);
+            object-fit: cover;
+            border: 4px solid var(--bg-secondary);
+        }
+        .profile-name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+        .profile-affiliation {
+            color: var(--accent-primary);
+            font-style: italic;
+            margin-bottom: 2rem;
+            font-size: 1rem;
+        }
+        .info-block {
+            background: var(--bg-secondary);
+            padding: 1.5rem;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 8px var(--shadow);
+        }
+        .info-block h3 {
+            margin-top: 0;
+            color: var(--text-primary);
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .info-block h3 i {
+            color: var(--accent-primary);
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.75rem;
+            color: var(--text-secondary);
+            padding: 0.5rem;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+        .contact-item:hover {
+            background: var(--bg-primary);
+        }
+        .contact-item i {
+            margin-right: 0.75rem;
+            width: 20px;
+            color: var(--accent-primary);
+            font-size: 1.1rem;
+        }
+        .contact-item a {
+            color: var(--accent-primary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .contact-item a:hover {
+            color: var(--accent-secondary);
+            text-decoration: underline;
+        }
+        h1 {
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+        h2 {
+            color: var(--text-primary);
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            font-size: 1.5rem;
+        }
+        h2:first-child {
+            margin-top: 0;
+        }
+        p {
+            color: var(--text-secondary);
+            text-align: justify;
+            margin-bottom: 1rem;
+        }
+        p a {
+            color: var(--accent-primary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        p a:hover {
+            color: var(--accent-secondary);
+            text-decoration: underline;
+        }
+        .theme-dropdown {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            z-index: 1000;
+        }
+        .theme-toggle {
+            background: transparent;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.5rem;
+            border-radius: 4px;
+        }
+        .theme-toggle:hover {
+            background: var(--accent-primary);
+        }
+        .theme-menu {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            min-width: 120px;
+            display: none;
+            overflow: hidden;
+            margin-top: 0.25rem;
+        }
+        .theme-menu.show {
+            display: block;
+        }
+        .theme-option {
+            width: 100%;
+            background: none;
+            border: none;
+            padding: 0.75rem 1rem;
+            color: var(--text-primary);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+            transition: background-color 0.2s ease;
+            text-align: left;
+        }
+        .theme-option:hover {
+            background: var(--bg-primary);
+        }
+        .theme-option.active {
+            background: var(--accent-primary);
+            color: white;
+        }
+        footer {
+            background: var(--header-bg);
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+            transition: background-color 0.3s ease;
+        }
+        @media (max-width: 768px) {
+            .about-content {
+                flex-direction: column;
+            }
+            .about-sidebar {
+                min-width: auto;
+            }
+            .profile-panel {
+                padding: 1.5rem;
+            }
+            .profile-image {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Andrea De Polis</h1>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="policy-work.html">Policy Work</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
+            <div class="theme-dropdown">
+                <button class="theme-toggle" onclick="toggleDropdown()" id="themeToggle">
+                    <span id="themeIcon">⚙</span>
+                </button>
+                <div class="theme-menu" id="themeMenu">
+                    <button onclick="setTheme('light')" class="theme-option">
+                        <span>☀</span> Light
+                    </button>
+                    <button onclick="setTheme('dark')" class="theme-option">
+                        <span>☽</span> Dark
+                    </button>
+                    <button onclick="setTheme('auto')" class="theme-option">
+                        <span>⚙</span> Auto
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <main>
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h1>Biography</h1>
+                    <p>Welcome to my research website.</p>
+                    <p>I am a Research Associate at the <a href="https://www.escoe.ac.uk" target="_blank">Economic Statistics Centre of Excellence</a> (ESCoE) and at the Department of Economics of the <a href="https://www.strath.ac.uk/business/economics/" target="_blank">University of Strathclyde</a>. I recently obtained my PhD in Finance & Econometrics from <a href="https://www.wbs.ac.uk" target="_blank" rel="noopener noreferrer">Warwick Business School</a>. My research interests cover monetary economics, Bayesian econometrics, and financial econometrics, with a focus on non-linear and non-Gaussian time series.</p>
+                    <p>Previously, I worked as Ph.D. Trainee at the DG-Research of the <a href="https://www.ecb.europa.eu/home/html/index.en.html" target="_blank" rel="noopener noreferrer">European Central Bank</a>, and at the Monetary Policy and Economic Outlook Directorate of the <a href="https://www.bancaditalia.it/homepage/index.html?com.dotmarketing.htmlpage.language=1" target="_blank" rel="noopener noreferrer">Bank of Italy</a>. I was also a Senior Economist at <a href="https://www.now-casting.com/home" target="_blank" rel="noopener noreferrer">NowCasting Economics Ltd</a>.</p>
+                </div>
+                
+                <div class="about-sidebar">
+                    <div class="profile-panel">
+                        <img src="authors/admin/avatar.png" alt="Andrea De Polis" class="profile-image">
+                        <div class="profile-name">Andrea De Polis</div>
+                        <div class="profile-affiliation">Research Associate<br>ESCoE & University of Strathclyde</div>
+                        
+                        <div class="info-block">
+                            <h3><i class="fas fa-envelope"></i> Contact</h3>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:andrea.de-polis@strath.ac.uk">andrea.de-polis@strath.ac.uk</a>
+                            </div>
+                        </div>
+                        
+                        <div class="info-block">
+                            <h3><i class="fas fa-link"></i> Links</h3>
+                            <div class="contact-item">
+                                <i class="fab fa-google-scholar"></i>
+                                <a href="https://scholar.google.com/citations?user=hM0IWi0AAAAJ&hl=en" target="_blank">Google Scholar</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-github"></i>
+                                <a href="https://github.com/andreadepolis" target="_blank">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> Andrea De Polis. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script>
+        let currentTheme = localStorage.getItem('theme') || 'auto';
+        
+        function toggleDropdown() {
+            const menu = document.getElementById('themeMenu');
+            menu.classList.toggle('show');
+        }
+        
+        function setTheme(theme) {
+            currentTheme = theme;
+            localStorage.setItem('theme', theme);
+            
+            if (theme === 'auto') {
+                const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                document.documentElement.setAttribute('data-theme', prefersDark ? 'dark' : 'light');
+            } else {
+                document.documentElement.setAttribute('data-theme', theme);
+            }
+            
+            const icon = document.getElementById('themeIcon');
+            if (theme === 'dark') {
+                icon.textContent = '☽';
+            } else if (theme === 'light') {
+                icon.textContent = '☀';
+            } else {
+                icon.textContent = '⚙';
+            }
+            
+            updateActiveOption();
+            document.getElementById('themeMenu').classList.remove('show');
+        }
+        
+        function updateActiveOption() {
+            const options = document.querySelectorAll('.theme-option');
+            options.forEach(option => {
+                option.classList.remove('active');
+                if (option.textContent.includes(currentTheme === 'light' ? 'Light' : 
+                                               currentTheme === 'dark' ? 'Dark' : 'Auto')) {
+                    option.classList.add('active');
+                }
+            });
+        }
+        
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+            if (currentTheme === 'auto') {
+                document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+            }
+        });
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            setTheme(currentTheme);
+            updateActiveOption();
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+        });
+        
+        document.addEventListener('click', function(event) {
+            const dropdown = document.querySelector('.theme-dropdown');
+            if (!dropdown.contains(event.target)) {
+                document.getElementById('themeMenu').classList.remove('show');
+            }
+        });
+    </script>
+</body>
+</html>
