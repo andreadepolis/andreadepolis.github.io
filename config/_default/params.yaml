@@ -133,4 +133,8 @@ icon:
   pack:
     ai: true
 marketing:
-  google_site_verification: 'UA-201863739-1'
+  google_analytics: ''
+  google_tag_manager: ''
+  google_site_verification: ''
+  baidu_site_verification: ''
+  baidu_tongji: ''

@@ -13,7 +13,7 @@ authors:
 #- "Equal contribution"
 #- "Equal contribution"
 
-date: "2019"
+date: "2019-01-01"
 doi: ""
 weight: 4
 # Schedule page publish date (NOT publication's date).

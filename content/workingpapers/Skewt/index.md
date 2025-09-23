@@ -7,7 +7,7 @@ title: "Testing for Conditional Skewness with _Epsilon-Skew-t_ Distributions."
 authors:
 - admin
 
-date: "2024"
+date: "2024-01-01"
 doi: ""
 weight: 3
 # Schedule page publish date (NOT publication's date).
