@@ -19,6 +19,7 @@ title: Biography
 # See https://wowchemy.com/docs/get-started/#introduce-yourself
 author: admin
 design:
+  css_class: hide-topbar
   background:
     # Name of image in `assets/media/`.
     #image: hyma.jpg
@@ -36,3 +37,4 @@ design:
     # Text color (true=light, false=dark, or remove for the dynamic theme color).
     #text_color_light: true
 ---
+

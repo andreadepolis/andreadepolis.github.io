@@ -126,27 +126,26 @@
         .download-button {
             display: inline-flex;
             align-items: center;
-            background: var(--accent-primary);
-            color: white;
+            gap: 0.4rem;
+            background: transparent;
+            color: var(--accent-primary);
             text-decoration: none;
-            padding: 1rem 2rem;
-            border-radius: 8px;
-            font-size: 1.1rem;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            box-shadow: 0 2px 8px rgba(25, 118, 210, 0.3);
+            padding: 0;
+            border-radius: 0;
+            font-size: 1rem;
+            font-weight: 500;
+            box-shadow: none;
         }
         .download-button:hover {
-            background: var(--accent-secondary);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 16px rgba(25, 118, 210, 0.4);
+            text-decoration: underline;
+            color: var(--accent-secondary);
         }
         .download-button i {
-            margin-right: 0.75rem;
-            font-size: 1.2rem;
+            margin-right: 0.1rem;
+            font-size: 1rem;
         }
         .cv-preview {
-            margin-top: 2rem;
+            margin-top: 0.5rem;
             background: var(--bg-primary);
             padding: 1.5rem;
             border-radius: 8px;
@@ -154,6 +153,7 @@
             max-width: 800px;
             width: 100%;
         }
+        .cv-top-link { margin: 0 0 0.25rem 0; }
         .cv-preview h3 {
             color: var(--text-primary);
             margin-top: 0;
@@ -291,54 +291,22 @@
     <main>
         <div class="container">
             <div class="cv-content">
-                <div class="cv-download">
-                    <h2>Curriculum Vitae</h2>
-                    <p>Download my complete CV in PDF format</p>
-                    <a href="https://andreadepolis.github.io/MyCV/cv.pdf" target="_blank" class="download-button">
-                        <i class="fas fa-download"></i>
-                        Download CV
-                    </a>
-                </div>
-                
+                <p class="cv-top-link">
+                  <a href="https://andreadepolis.github.io/MyCV/cv.pdf" target="_blank" class="download-button" rel="noopener">
+                    <i class="fas fa-download"></i>
+                    Download CV (PDF)
+                  </a>
+                </p>
+
                 <div class="cv-preview">
-                    <h3>CV Overview</h3>
-                    
-                    <div class="cv-section">
-                        <h4>Education</h4>
-                        <p><strong>PhD in Finance & Econometrics</strong><br>
-                        Warwick Business School, 2023</p>
-                        <p><strong>MSc in Economics</strong><br>
-                        University of Rome Tor Vergata, 2017</p>
-                        <p><strong>BSc in Economics</strong><br>
-                        Roma Tre University, 2015</p>
-                    </div>
-                    
-                    <div class="cv-section">
-                        <h4>Current Position</h4>
-                        <p><strong>Research Associate</strong><br>
-                        Economic Statistics Centre of Excellence (ESCoE)<br>
-                        University of Strathclyde, Department of Economics</p>
-                    </div>
-                    
-                    <div class="cv-section">
-                        <h4>Previous Experience</h4>
-                        <ul>
-                            <li>Ph.D. Trainee, DG-Research, European Central Bank</li>
-                            <li>Ph.D. Trainee, Monetary Policy and Economic Outlook Directorate, Bank of Italy</li>
-                            <li>Senior Economist, NowCasting Economics Ltd</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="cv-section">
-                        <h4>Research Interests</h4>
-                        <ul>
-                            <li>Macroeconomics</li>
-                            <li>Bayesian Econometrics</li>
-                            <li>Non-Gaussian time series</li>
-                            <li>Monetary economics</li>
-                            <li>Financial econometrics</li>
-                        </ul>
-                    </div>
+                    <iframe
+                      class="cv-pdf"
+                      src="https://andreadepolis.github.io/MyCV/cv.pdf#view=FitH"
+                      width="100%"
+                      height="900"
+                      style="border: none;"
+                      title="Curriculum Vitae PDF Viewer"
+                      loading="lazy"></iframe>
                 </div>
             </div>
         </div>

@@ -27,4 +27,13 @@ design:
   view: 3
 ---
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "https://andreadepolis.github.io/MyCV/cv.pdf" "newtab" >}}<strong>CV</strong>{{< /staticref >}}.
+<iframe
+  class="cv-pdf"
+  src="https://andreadepolis.github.io/MyCV/cv.pdf#view=FitH"
+  width="100%"
+  height="900"
+  style="border: none;"
+  title="Curriculum Vitae PDF Viewer"
+  loading="lazy"
+></iframe>
+

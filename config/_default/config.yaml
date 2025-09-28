@@ -6,6 +6,7 @@
 title: Andrea De Polis # Website name
 baseurl: 'https://andreadepolis.github.io/' # Website URL
 #baseurl: 'https://example.com'
+googleAnalytics: "" # Required by theme partials; leave empty to disable
 copyright: '© {year} Andrea De Polis' # Footer text, e.g. '© {year} Me'
 
 ############################
@@ -51,7 +52,6 @@ imaging:
   resampleFilter: lanczos
   quality: 75
   anchor: smart
-timeout: 600000
 taxonomies:
   tag: tags
   category: categories
@@ -59,13 +59,15 @@ taxonomies:
   author: authors
 markup:
   _merge: deep
+  goldmark:
+    renderer:
+      unsafe: true
 related:
   threshold: 80
   includeNewer: true
   toLower: true
   indices:
     - name: tags
-      weight: 100
     - name: categories
       weight: 70
 

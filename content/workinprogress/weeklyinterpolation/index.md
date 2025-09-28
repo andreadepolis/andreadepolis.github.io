@@ -27,7 +27,7 @@ publication_types: ["0"]
 
 abstract:
 # Summary. An optional shortened abstract. Add for example "in the media"
-summary: with <a href="https://sites.google.com/site/anabgalvao/" target="_blank" rel="noopener noreferrer">Ana Galvāo</a> (Bloomber LP) and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a> (Collegio Carlo Alberto).
+summary: with <a href="https://sites.google.com/site/anabgalvao/" target="_blank" rel="noopener noreferrer">Ana Galvāo</a> and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a>.
 
 tags: []
 
