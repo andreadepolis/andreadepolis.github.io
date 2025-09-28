@@ -1,10 +1,10 @@
 ---
 title: Modeling and Forecasting Macroeconomics Downside Risk
 
-#authors:
-#- DelleMonache
-#- admin
-#- Petrella
+authors:
+- DelleMonache
+- admin
+- Petrella
 
 date: "2023-01-01"
 doi: ""
@@ -21,7 +21,7 @@ publication_types: "1"
 # Publication name and optional abbreviated publication name.
 publication: _Journal of Business & Economic Statistics_ (2023)
 
-summary: <font size="-0">with <a href="https://sites.google.com/site/dellemonachedavide/home" target="_blank" rel="noopener noreferrer"> Davide Delle Monache</a> (Bank of Italy) and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a> (University of Warwick).</font> <br> <b>_Journal of Business & Economic Statistics_</b> (2023).
+summary: <font size="-0">with <a href="/authors/dellemonache/"> Davide Delle Monache</a> (Bank of Italy) and <a href="/authors/petrella/">Ivan Petrella</a> (University of Warwick).</font> <br> <b>_Journal of Business & Economic Statistics_</b> (2023).
 
 abstract: |
   We model secular trends and cyclical changes of the predictive density of US GDP growth. A substantial increase in downside risk to US economic growth emerges over the last 30 years, associated with the long-run growth slowdown started in the early 2000s. Conditional skewness moves procyclically, implying negatively skewed predictive densities ahead and during recessions, often anticipated by deteriorating financial conditions, while positively skewed distributions characterize expansions. The modelling framework ensures robustness to tail events, allows for either dense or sparse predictor designs, and delivers competitive out-of-sample (point, density and tail) forecasts, improving upon standard benchmarks.

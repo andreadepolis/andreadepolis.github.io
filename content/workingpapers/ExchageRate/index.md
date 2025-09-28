@@ -62,7 +62,7 @@ image:
 #projects:
 #- example
 
-summary: with <a href="https://ideas.repec.org/f/ppi344.html" target="_blank" rel="noopener noreferrer"> Mario Pietrunti</a> (former Bank of Italy).
+summary: with <a href="/authors/pietrunti/"> Mario Pietrunti</a> (former Bank of Italy).
 
 
 # Slides (optional).

@@ -11,4 +11,4 @@ organizations:
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
-Link to Ivan's <a href="https://sites.google.com/site/lemelosi/" target="_blank" rel="noopener noreferrer"> personal page</a>.
+Link to Leonardo's <a href="https://sites.google.com/site/lemelosi/" target="_blank" rel="noopener noreferrer"> personal page</a>.

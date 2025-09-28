@@ -4,10 +4,8 @@ title: "Mixed Frequency Functional VARs for Nowcasting and Structural Analysis"
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
-#authors:
-#- admin
-#- Melosi
-#- Petrella
+authors:
+- admin
 weight: 7
 # Author notes (optional)
 #author_notes:
@@ -27,7 +25,7 @@ publication_types: ["0"]
 
 abstract:
 # Summary. An optional shortened abstract. Add for example "in the media"
-summary: with <a href="https://sites.google.com/site/garykoop/home" target="_blank" rel="noopener noreferrer"> Gary Koop</a> (Univeristy of Strathclyde), <a href="https://sites.google.com/view/stuartgmcintyre/home" target="_blank" rel="noopener noreferrer">Stuart McIntyre</a> (Univeristy of Strathclyde), and <a href="https://www.clevelandfed.org/people/profiles/m/mitchell-james" target="_blank" rel="noopener noreferrer">James Mitchell</a> (Cleveand FRB).
+summary: with <a href="https://sites.google.com/site/garykoop/" target="_blank" rel="noopener noreferrer"> Gary Koop</a>, <a href="https://sites.google.com/view/stuartgmcintyre" target="_blank" rel="noopener noreferrer">Stuart McIntyre</a>, and <a href="https://sites.google.com/view/jamesmitchell" target="_blank" rel="noopener noreferrer">James Mitchell</a>.
 
 tags: []
 

@@ -4,10 +4,9 @@ title: "Real-Time Forecasting with High-Frequency Seasonal Patterns"
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
-#authors:
-#- admin
-#- Melosi
-#- Petrella
+authors:
+- admin
+- Petrella
 weight: 10
 # Author notes (optional)
 #author_notes:
@@ -27,7 +26,7 @@ publication_types: ["0"]
 
 abstract:
 # Summary. An optional shortened abstract. Add for example "in the media"
-summary: with <a href="https://sites.google.com/site/anabgalvao/" target="_blank" rel="noopener noreferrer">Ana Galvāo</a> and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a>.
+summary: with <a href="https://sites.google.com/site/anabgalvao/" target="_blank" rel="noopener noreferrer">Ana Galvāo</a> and <a href="/authors/petrella/">Ivan Petrella</a>.
 
 tags: []
 

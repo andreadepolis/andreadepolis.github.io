@@ -33,8 +33,7 @@ publication_types: ["3"]
 
 abstract:
 # Summary. An optional shortened abstract. Add for example "in the media"
-summary: with <a href="https://whitesphd.com" target="_blank" rel="noopener noreferrer"> Daniele Bianchi</a> (Queen Mary) and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a> (Collegio Carlo Alberto). Revision requested at _Review of Asset Pricing Studies_
-
+summary: with <a href="/authors/bianchi/"> Daniele Bianchi</a> (Queen Mary) and <a href="/authors/petrella/">Ivan Petrella</a> (Collegio Carlo Alberto). Revision requested at _Review of Asset Pricing Studies_
 
 tags: []
 

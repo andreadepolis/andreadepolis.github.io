@@ -11,24 +11,14 @@ authors:
 
 # Author notes (optional)
 #author_notes:
-#- "Equal contribution"
-#- "Equal contribution"
-
-date: "2024-01-01"
-doi: ""
-weight: 1
-# Publication type.
-# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
-# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
 publication_types: ["3"]
+
 # Publication name and optional abbreviated publication name.
 #publication: In *Wowchemy Conference*
 #publication_short: In *ICW*
 
-abstract: 
-# Summary. An optional shortened abstract. Add for example "in the media"
-summary: with <a href="https://sites.google.com/site/lemelosi/" target="_blank" rel="noopener noreferrer"> Leonardo Melosi</a> (University of Warwick) and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a> (Collegio Carlo Alberto).
+abstract: ""
+summary: with <a href="/authors/melosi/">Leonardo Melosi</a> (University of Warwick) and <a href="/authors/petrella/">Ivan Petrella</a> (Collegio Carlo Alberto).
 
 tags: []
 
@@ -46,7 +36,6 @@ image:
   caption: ""
   placement: 1
   focal_point: "Smart"
-  preview_only: true
 
 
 # Featured image

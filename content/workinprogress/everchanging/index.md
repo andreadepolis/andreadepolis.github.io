@@ -4,8 +4,10 @@ title: "The Ever-Changing Challenges to Price Stability"
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
-#authors:
-#- admin
+authors:
+- admin
+- Melosi
+- Petrella
 weight: 5
 #date: "2022"
 #doi: "
@@ -19,8 +21,9 @@ publication_types: ["0"]
 #publication_short: In *ICW*
 
 abstract:   
+
 # Summary. An optional shortened abstract. Add for example "in the media"
-summary: with <a href="https://sites.google.com/site/lemelosi/" target="_blank" rel="noopener noreferrer"> Leonardo Melosi</a> (University of Warwick) and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a> (Collegio Carlo Alberto).
+summary: with <a href="/authors/melosi/"> Leonardo Melosi</a> (University of Warwick) and <a href="/authors/petrella/">Ivan Petrella</a> (Collegio Carlo Alberto).
 
 tags: []
 
