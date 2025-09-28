@@ -18,7 +18,7 @@ publication_types: ["3"]
 #publication_short: In *ICW*
 
 abstract: ""
-summary: with <a href="/authors/melosi/">Leonardo Melosi</a> (University of Warwick) and <a href="/authors/petrella/">Ivan Petrella</a> (Collegio Carlo Alberto).
+summary: with <a href="/authors/melosi/">Leonardo Melosi</a> University of Warwick and <a href="/authors/petrella/">Ivan Petrella</a> Collegio Carlo Alberto.
 
 tags: []
 

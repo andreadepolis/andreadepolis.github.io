@@ -15,6 +15,7 @@
             --accent-primary: #1976d2;
             --accent-secondary: #1565c0;
             --header-bg: #212121;
+            --footer-bg: #212121;
             --nav-bg: #424242;
             --border-color: #e0e0e0;
             --shadow: rgba(0,0,0,0.08);
@@ -28,6 +29,7 @@
             --accent-primary: #42a5f5;
             --accent-secondary: #64b5f6;
             --header-bg: #000000;
+            --footer-bg: #212121;
             --nav-bg: #1a1a1a;
             --border-color: #333333;
             --shadow: rgba(0,0,0,0.3);
@@ -42,6 +44,7 @@
             background-color: var(--bg-primary);
             color: var(--text-primary);
             transition: background-color 0.3s ease, color 0.3s ease;
+            font-size: 18px;
         }
         .container {
             max-width: 1200px;
@@ -100,7 +103,7 @@
         }
         .about-content {
             display: flex;
-            gap: 0.75rem;
+            gap:4rem;
             align-items: flex-start;
         }
         .about-text {
@@ -181,13 +184,14 @@
             color: var(--text-primary);
             font-weight: 300;
             margin-bottom: 1rem;
+            font-size: 2rem;
         }
         h2 {
             color: var(--text-primary);
             font-weight: 300;
             margin-top: 1rem;
             margin-bottom: 0.5rem;
-            font-size: 1.5rem;
+            font-size: 1.75rem;
         }
         h2:first-child {
             margin-top: 0;
@@ -268,18 +272,24 @@
             color: white;
         }
         footer {
-            background: var(--header-bg);
+            background: var(--footer-bg);
             color: white;
             text-align: center;
             padding: 1rem 0;
             margin-top: 2rem;
             transition: background-color 0.3s ease;
         }
+        footer p { color: white; margin: 0; }
         @media (max-width: 768px) {
             .about-content {
                 flex-direction: column;
                 gap: 0.75rem;
             }
+            body {
+                font-size: 16.5px;
+            }
+            h1 { font-size: 1.75rem; }
+            h2 { font-size: 1.5rem; }
             .about-sidebar {
                 min-width: auto;
                 order: 0;
@@ -335,27 +345,27 @@
         <div class="container">
             <div class="about-content">
                 <div class="about-text">
-                    <h1>Biography</h1>
-                    <p>Welcome to my research website.</p>
-                    <p>I am a Research Associate at the <a href="https://www.escoe.ac.uk" target="_blank">Economic Statistics Centre of Excellence</a> (ESCoE) and at the Department of Economics of the <a href="https://www.strath.ac.uk/business/economics/" target="_blank">University of Strathclyde</a>. I recently obtained my PhD in Finance & Econometrics from <a href="https://www.wbs.ac.uk" target="_blank" rel="noopener noreferrer">Warwick Business School</a>. My research interests cover monetary economics, Bayesian econometrics, and financial econometrics, with a focus on non-linear and non-Gaussian time series.</p>
-                    <p>Previously, I worked as Ph.D. Trainee at the DG-Research of the <a href="https://www.ecb.europa.eu/home/html/index.en.html" target="_blank" rel="noopener noreferrer">European Central Bank</a>, and at the Monetary Policy and Economic Outlook Directorate of the <a href="https://www.bancaditalia.it/homepage/index.html?com.dotmarketing.htmlpage.language=1" target="_blank" rel="noopener noreferrer">Bank of Italy</a>. I was also a Senior Economist at <a href="https://www.now-casting.com/home" target="_blank" rel="noopener noreferrer">NowCasting Economics Ltd</a>.</p>
+                    <h1>Welcome to my research website</h1>
+                    <p>I am a Research Economist within the Monetary Policy and Euro Area Economy division at the <a href="https://www.bde.es/" target="_blank" rel="noopener noreferrer">Banco de España</a>.
+                    My research interests include monetary economics, macroeconometrics, and Bayesian econometrics. I received a Ph.D. in Finance and Econometrics from <a href="https://www.wbs.ac.uk" target="_blank" rel="noopener noreferrer">Warwick Business School</a>, at the University of Warwick.</p>
+                    <p>Before joining the Banco de España, I worked in the Quantitative Investment Strategies team at <a href="https://fulcrumasset.com" target="_blank" rel="noopener noreferrer">Fulcrum Asset Management</a> and I was a Senior Economist at <a href="https://www.now-casting.com/home" target="_blank" rel="noopener noreferrer">NowCasting Economics Ltd</a>.</p>
                 </div>
                 
                 <div class="about-sidebar">
                     <div class="profile-panel">
                         <img src="authors/admin/avatar.png" alt="Andrea De Polis" class="profile-image">
                         <div class="profile-name">Andrea De Polis</div>
-                        <div class="profile-affiliation">Research Associate<br>ESCoE & University of Strathclyde</div>
+                        <div class="profile-affiliation" style="font-size: 1.1rem; line-height: 2rem;">Research Economist<br />Monetary Policy and Euro Area Economy<br />Banco de España</div>
                         
                         <div class="info-block">
                             <h3>Contact</h3>
                             <div class="contact-item">
                                 <i class="fas fa-envelope"></i>
-                                <a href="mailto:andrea.de-polis@strath.ac.uk">andrea.de-polis@strath.ac.uk</a>
+                                <a href="mailto:andrea.depolis@bde.es">andrea.depolis@bde.es</a>
                             </div>
                             <div class="contact-item">
                                 <i class="fas fa-map-marker-alt"></i>
-                                <span>Glasgow, Scotland</span>
+                                <span>Alcalá 48, Madrid, Spain</span>
                             </div>
                         </div>
                         
@@ -378,7 +388,7 @@
     
     <footer>
         <div class="container">
-            <p>&copy; <span id="currentYear"></span> Andrea De Polis. All rights reserved.</p>
+            <p style="text-align: center;">&copy; <span id="currentYear"></span> Andrea De Polis. All rights reserved.</p>
         </div>
     </footer>
     

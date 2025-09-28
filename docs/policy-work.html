@@ -14,6 +14,7 @@
             --accent-primary: #1976d2;
             --accent-secondary: #1565c0;
             --header-bg: #212121;
+            --footer-bg: #212121;
             --nav-bg: #424242;
             --border-color: #e0e0e0;
             --shadow: rgba(0,0,0,0.08);
@@ -27,6 +28,7 @@
             --accent-primary: #42a5f5;
             --accent-secondary: #64b5f6;
             --header-bg: #000000;
+            --footer-bg: #212121;
             --nav-bg: #1a1a1a;
             --border-color: #333333;
             --shadow: rgba(0,0,0,0.3);
@@ -215,7 +217,7 @@
             color: white;
         }
         footer {
-            background: var(--header-bg);
+            background: var(--footer-bg);
             color: white;
             text-align: center;
             padding: 1rem 0;
@@ -263,10 +265,10 @@
             <div class="policy-item">
                 <h3>The Dynamics of Macroeconomic Downside Risk</h3>
                 <div class="authors">
-                    with <a href="https://sites.google.com/site/dellemonachedavide/home" target="_blank" rel="noopener noreferrer">Davide Delle Monache</a> (Bank of Italy) and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a> (University of Warwick)
+                    with <a href="https://sites.google.com/site/dellemonachedavide/home" target="_blank" rel="noopener noreferrer">Davide Delle Monache</a> and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a>
                 </div>
                 <div class="links">
-                    <a href="https://www.suerf.org/suer-policy-brief/29891/the-dynamics-of-macroeconomic-downside-risk" target="_blank">
+                    <a href="https://www.suerf.org/wp-content/uploads/2023/12/f_9b531edcbb1a4a81e667cd8acce6b8ab_29891_suerf.pdf" target="_blank">
                         <i class="fas fa-link"></i>
                         SUERF Policy Brief
                     </a>
@@ -277,8 +279,9 @@
     
     <footer>
         <div class="container">
-            <p>&copy; <span id="currentYear"></span> Andrea De Polis. All rights reserved.</p>
+            <p style="text-align: center;">&copy; <span id="currentYear"></span> Andrea De Polis. All rights reserved.</p>
         </div>
+    </footer>
     <script>
         let currentTheme = localStorage.getItem('theme') || 'auto';
         
@@ -286,7 +289,6 @@
             const menu = document.getElementById('themeMenu');
             menu.classList.toggle('show');
         }
-        
         function setTheme(theme) {
             currentTheme = theme;
             localStorage.setItem('theme', theme);
@@ -331,7 +333,8 @@
         document.addEventListener('DOMContentLoaded', function() {
             setTheme(currentTheme);
             updateActiveOption();
-            document.getElementById('currentYear').textContent = new Date().getFullYear();
+            const yearEl = document.getElementById('currentYear');
+            if (yearEl) yearEl.textContent = new Date().getFullYear();
         });
         
         document.addEventListener('click', function(event) {

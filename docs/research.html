@@ -15,6 +15,7 @@
             --accent-primary: #1976d2;
             --accent-secondary: #1565c0;
             --header-bg: #212121;
+            --footer-bg: #212121;
             --nav-bg: #424242;
             --border-color: #e0e0e0;
             --shadow: rgba(0,0,0,0.08);
@@ -28,6 +29,7 @@
             --accent-primary: #42a5f5;
             --accent-secondary: #64b5f6;
             --header-bg: #000000;
+            --footer-bg: #212121;
             --nav-bg: #1a1a1a;
             --border-color: #333333;
             --shadow: rgba(0,0,0,0.3);
@@ -87,7 +89,7 @@
         .theme-option { width: 100%; background: none; border: none; padding: 0.75rem 1rem; color: var(--text-primary); cursor: pointer; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; transition: background-color 0.2s ease; text-align: left; }
         .theme-option:hover { background: var(--bg-primary); }
         .theme-option.active { background: var(--accent-primary); color: white; }
-        footer { background: var(--header-bg); color: white; text-align: center; padding: 1rem 0; margin-top: 2rem; transition: background-color 0.3s ease; }
+        footer { background: var(--footer-bg); color: white; text-align: center; padding: 1rem 0; margin-top: 2rem; transition: background-color 0.3s ease; }
     </style>
 </head>
 <body>
@@ -99,9 +101,9 @@
     <nav>
         <div class="container nav-container">
             <ul>
-                <li><a href="index.html">About</a></li>
+                <li><a href="index.html" id="navAbout">About</a></li>
                 <li><a href="research.html" class="active">Research</a></li>
-                <li><a href="policywork.html">Policy Work</a></li>
+                <li><a href="policy-work.html">Policy Work</a></li>
                 <li><a href="index.html#CV">CV</a></li>
             </ul>
             <div class="theme-dropdown">
@@ -179,7 +181,7 @@
     </main>
     <footer>
         <div class="container">
-            <p>&copy; <span id="currentYear"></span> Andrea De Polis. All rights reserved.</p>
+            <p style="text-align: center;">&copy; <span id="currentYear"></span> Andrea De Polis. All rights reserved.</p>
         </div>
     </footer>
     <script>
@@ -220,8 +222,14 @@
         });
         function retargetAllLinks() {
             document.querySelectorAll('a').forEach(a => {
-                a.setAttribute('target', '_blank');
-                a.setAttribute('rel', 'noopener noreferrer');
+                // Keep navigation links in same tab (About, Research, Policy Work, CV)
+                if (a.closest('nav')) {
+                    a.setAttribute('target', '_self');
+                    a.removeAttribute('rel');
+                } else {
+                    a.setAttribute('target', '_blank');
+                    a.setAttribute('rel', 'noopener noreferrer');
+                }
             });
         }
         document.addEventListener('DOMContentLoaded', function() {

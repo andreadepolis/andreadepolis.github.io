@@ -23,7 +23,7 @@ publication_types: ["0"]
 abstract:   
 
 # Summary. An optional shortened abstract. Add for example "in the media"
-summary: with <a href="/authors/melosi/"> Leonardo Melosi</a> (University of Warwick) and <a href="/authors/petrella/">Ivan Petrella</a> (Collegio Carlo Alberto).
+summary: with <a href="/authors/melosi/"> Leonardo Melosi</a> and <a href="/authors/petrella/">Ivan Petrella</a>.
 
 tags: []
 

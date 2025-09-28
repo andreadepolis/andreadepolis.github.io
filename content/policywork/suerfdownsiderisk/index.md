@@ -12,7 +12,7 @@ weight: 13
 draft: false
 
 publishDate: "2021-01-01T00:00:00Z"
-summary: <font size="-1">with <a href="/authors/dellemonache/"> Davide Delle Monache</a> (Bank of Italy) and <a href="/authors/petrella/">Ivan Petrella</a> (University of Warwick).
+summary: <font size="-1">with <a href="https://sites.google.com/site/dellemonachedavide/home"> Davide Delle Monache</a> and <a href="https://sites.google.com/view/ivanpetrella/home?authuser=0">Ivan Petrella</a>.
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -24,5 +24,5 @@ links:
 - icon_pack: fas
   icon: link
   name: SUERF policy brief
-  url: https://www.suerf.org/suer-policy-brief/29891/the-dynamics-of-macroeconomic-downside-risk
+  url: https://www.suerf.org/wp-content/uploads/2023/12/f_9b531edcbb1a4a81e667cd8acce6b8ab_29891_suerf.pdf
 ---
