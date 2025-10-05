@@ -22,7 +22,7 @@
         }
         [data-theme="dark"] {
             /* Academic Dark Theme */
-            --bg-primary: #2a2a2a;
+            --bg-primary: #2d2d2d;
             --bg-secondary: #1e1e1e;
             --text-primary: #e0e0e0;
             --text-secondary: #b0b0b0;
@@ -44,7 +44,38 @@
         nav a { color: white; text-decoration: none; padding: 0.5rem 1rem; border-radius: 4px; transition: background-color 0.3s; }
         nav a:hover, nav a.active { background-color: var(--accent-primary); }
         main { background: var(--bg-secondary); padding: 0.25rem; margin: 0; border-radius: 8px; box-shadow: 0 2px 10px var(--shadow); transition: background-color 0.3s ease, box-shadow 0.3s ease; }
-        h2 { color: var(--text-primary); margin-top: 1rem; margin-bottom: 0.5rem; font-size: 1.5rem; }
+        .research-section { 
+            padding: 2rem 3rem; 
+            margin-bottom: 1rem;
+            background: var(--bg-primary);
+            border-radius: 8px;
+            position: relative;
+        }
+        .research-section:first-child { 
+            padding-top: 1rem; 
+        }
+        .research-section::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 10%;
+            right: 10%;
+            height: 2px;
+            background: linear-gradient(to right, transparent, var(--accent-primary), transparent);
+        }
+        .research-section:last-child::after {
+            display: none;
+        }
+        h2 { 
+            color: var(--text-primary); 
+            margin-top: 0; 
+            margin-bottom: 1.5rem; 
+            font-size: 1.75rem;
+            font-weight: 400;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid var(--accent-primary);
+            display: inline-block;
+        }
         h2:first-child { margin-top: 0; }
         .publication { border-bottom: 1px solid var(--border-color); padding: 0.25rem 0; }
         .publication:last-child { border-bottom: none; }
@@ -120,63 +151,71 @@
     </nav>
     <main>
         <div class="container">
-            <h2>Journal Articles</h2>
-            <div id="macroeconomic-downside-risk"></div>
-            <script>
-                fetch('papers/macroeconomic-downside-risk.html')
-                    .then(r => r.text())
-                    .then(html => document.getElementById('macroeconomic-downside-risk').innerHTML = html);
-            </script>
-            <h2>Working Papers</h2>
-            <div id="taming-skew"></div>
-            <script>
-                fetch('papers/taming-skew.html')
-                    .then(r => r.text())
-                    .then(html => document.getElementById('taming-skew').innerHTML = html);
-            </script>
-            <div id="momentum-crashes"></div>
-            <script>
-                fetch('papers/momentum-crashes.html')
-                    .then(r => r.text())
-                    .then(html => document.getElementById('momentum-crashes').innerHTML = html);
-            </script>
-            <div id="conditional-skewness"></div>
-            <script>
-                fetch('papers/conditional-skewness.html')
-                    .then(r => r.text())
-                    .then(html => document.getElementById('conditional-skewness').innerHTML = html);
-            </script>
-            <div id="exchange-rate-dynamics"></div>
-            <script>
-                fetch('papers/exchange-rate-dynamics.html')
-                    .then(r => r.text())
-                    .then(html => document.getElementById('exchange-rate-dynamics').innerHTML = html);
-            </script>
-            <h2>Work in Progress</h2>
-            <div id="bayesian-inference"></div>
-            <script>
-                fetch('papers/bayesian-inference.html')
-                    .then(r => r.text())
-                    .then(html => document.getElementById('bayesian-inference').innerHTML = html);
-            </script>
-            <div id="macroeconomic-forecasting"></div>
-            <script>
-                fetch('papers/macroeconomic-forecasting.html')
-                    .then(r => r.text())
-                    .then(html => document.getElementById('macroeconomic-forecasting').innerHTML = html);
-            </script>
-            <div id="mixed-frequency-functional"></div>
-            <script>
-                fetch('papers/mixed-frequency-functional.html')
-                    .then(r => r.text())
-                    .then(html => document.getElementById('mixed-frequency-functional').innerHTML = html);
-            </script>
-            <div id="real-time-forecasting"></div>
-            <script>
-                fetch('papers/real-time-forecasting.html')
-                    .then(r => r.text())
-                    .then(html => document.getElementById('real-time-forecasting').innerHTML = html);
-            </script>
+            <div class="research-section">
+                <h2>Journal Articles</h2>
+                <div id="macroeconomic-downside-risk"></div>
+                <script>
+                    fetch('papers/macroeconomic-downside-risk.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('macroeconomic-downside-risk').innerHTML = html);
+                </script>
+            </div>
+            
+            <div class="research-section">
+                <h2>Working Papers</h2>
+                <div id="taming-skew"></div>
+                <script>
+                    fetch('papers/taming-skew.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('taming-skew').innerHTML = html);
+                </script>
+                <div id="momentum-crashes"></div>
+                <script>
+                    fetch('papers/momentum-crashes.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('momentum-crashes').innerHTML = html);
+                </script>
+                <div id="conditional-skewness"></div>
+                <script>
+                    fetch('papers/conditional-skewness.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('conditional-skewness').innerHTML = html);
+                </script>
+                <div id="exchange-rate-dynamics"></div>
+                <script>
+                    fetch('papers/exchange-rate-dynamics.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('exchange-rate-dynamics').innerHTML = html);
+                </script>
+            </div>
+            
+            <div class="research-section">
+                <h2>Work in Progress</h2>
+                <div id="bayesian-inference"></div>
+                <script>
+                    fetch('papers/bayesian-inference.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('bayesian-inference').innerHTML = html);
+                </script>
+                <div id="macroeconomic-forecasting"></div>
+                <script>
+                    fetch('papers/macroeconomic-forecasting.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('macroeconomic-forecasting').innerHTML = html);
+                </script>
+                <div id="mixed-frequency-functional"></div>
+                <script>
+                    fetch('papers/mixed-frequency-functional.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('mixed-frequency-functional').innerHTML = html);
+                </script>
+                <div id="real-time-forecasting"></div>
+                <script>
+                    fetch('papers/real-time-forecasting.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('real-time-forecasting').innerHTML = html);
+                </script>
+            </div>
         </div>
     </main>
     <footer>
