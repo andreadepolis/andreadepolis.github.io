@@ -69,7 +69,7 @@
         h2 { 
             color: var(--text-primary); 
             margin-top: 0; 
-            margin-bottom: 1.5rem; 
+            margin-bottom: -0.5rem; 
             font-size: 1.75rem;
             font-weight: 400;
             padding-bottom: 0.5rem;
@@ -127,7 +127,7 @@
 <body>
     <header>
         <div class="container">
-            <h1>Andrea De Polis</h1>
+            <h1><a href="about.html" target="_self" style="color: inherit; text-decoration: none;">Andrea De Polis</a></h1>
         </div>
     </header>
     <nav>
@@ -262,6 +262,10 @@
         });
         function retargetAllLinks() {
             document.querySelectorAll('a').forEach(a => {
+                // Don't override links that already have target="_self" explicitly set
+                if (a.getAttribute('target') === '_self') {
+                    return;
+                }
                 // Keep navigation links in same tab (About, Research, Policy Work, CV)
                 if (a.closest('nav')) {
                     a.setAttribute('target', '_self');
@@ -276,6 +280,8 @@
             setTheme(currentTheme); updateActiveOption();
             document.getElementById('currentYear').textContent = new Date().getFullYear();
             retargetAllLinks();
+            // Run retargetAllLinks again after a short delay to catch dynamically loaded content
+            setTimeout(retargetAllLinks, 100);
             const observer = new MutationObserver(() => retargetAllLinks());
             observer.observe(document.body, { childList: true, subtree: true });
         });
