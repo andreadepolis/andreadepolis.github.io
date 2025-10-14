@@ -5,44 +5,19 @@
     <link>https://andreadepolis.github.io/publication-type/3.html</link>
       <atom:link href="https://andreadepolis.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Andrea De Polis</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Andrea De Polis</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://andreadepolis.github.io/media/icon_hubffddc73fe8e4f51a11ee5abe71c28fc_2383_512x512_fill_lanczos_center_3.png</url>
+      <url>https://andreadepolis.github.io/media/icon_hu5bbdac8555476ddb5a94b8b904ae6f96_154295_512x512_fill_lanczos_center_3.png</url>
       <title>3</title>
       <link>https://andreadepolis.github.io/publication-type/3.html</link>
     </image>
     
     <item>
-      <title>The Taming of the Skew: Asymmetric Inflation Risk and Monetary Policy</title>
-      <link>https://andreadepolis.github.io/workingpapers/inflationrisk.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andreadepolis.github.io/workingpapers/inflationrisk.html</guid>
-      <description>&lt;p&gt;Inflation risk in U.S. data varies significantly over time and often exhibits asymmetry. We introduce an econometric model with time-varying asymmetric risk that outperforms a state-of-the-art symmetric model in forecasting accuracy and achieves results comparable to those of professional forecasters. Skewness in the inflation distribution introduces a wedge between the expected value of future inflation and the modal forecast. We show that this wedge can be formalized within a linear-quadratic DSGE model by deriving the \textit{beliefs representation of asymmetric risk} of that model. This approach enables us to solve analytically for optimal monetary policy in stylized models and to explore the implications of skewed risk on macroeconomic outcomes in quantitative DSGE models. The optimal policy requires the central bank to take measures that shift the modal forecasts for inflation in the opposite direction of the asymmetric risk. We demonstrate the practical implications of this policy approach by aligning the beliefs representation of a quantitative DSGE model to reflect the inflation skewness estimated by the econometric model using U.S. data.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Time-Varying Skewness and Momentum Crashes</title>
+      <title>Taming Momentum Crashes</title>
       <link>https://andreadepolis.github.io/workingpapers/momentum.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://andreadepolis.github.io/workingpapers/momentum.html</guid>
       <description>&lt;p&gt;We provide empirical evidence that the returns on US equity momentum exhibit a time-varying skewness which deepens during dramatic losses (crashes). As a result, the dynamics of the strategy expected returns reflects the time variation in {\it both} conditional volatility and skewness. This has first order implications for managing risks associated with momentum investing: an adjusted momentum portfolio which hedges in real time for both volatility and skewness risk outperforms benchmark constant and dynamic volatility-managed momentum strategies. This result holds for different levels of transaction costs and risk aversion and cannot be reconciled by the exposure to standard equity risk factors.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Testing for Conditional Skewness with _Epsilon-Skew-t_ Distributions.</title>
-      <link>https://andreadepolis.github.io/workingpapers/skewt.html</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://andreadepolis.github.io/workingpapers/skewt.html</guid>
-      <description>&lt;p&gt;I develop a parametric test to detect the presence of instability in the third moment of
-time series data. The test is based on the score function of the flexible &lt;em&gt;Epsilon-Skew-t&lt;/em&gt; distribution,
-and belongs to the class of Lagrange Multiplier tests. The test presents appropriate asymptotic
-properties, as evaluated by means of an extensive Monte Carlo analysis. When applied to the three
-asset pricing anomalies of Fama and French (1993), the test points at an overwelimg evidence of con-
-ditional non-Gaussianity at the daily frequency, whereas weaker results are observed at the monthly
-frequency. These results should be taken as a warning of possible misspecification of asset pricing
-models based on symmetric likelihoods.&lt;/p&gt;
 </description>
     </item>
     

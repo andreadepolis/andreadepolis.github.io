@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research - Andrea De Polis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            /* Academic Light Theme - Professional Black & White with Blue accents */
+            --bg-primary: #fafafa;
+            --bg-secondary: #ffffff;
+            --text-primary: #212121;
+            --text-secondary: #424242;
+            --accent-primary: #1976d2;
+            --accent-secondary: #1565c0;
+            --header-bg: #212121;
+            --footer-bg: #212121;
+            --nav-bg: #424242;
+            --border-color: #e0e0e0;
+            --shadow: rgba(0,0,0,0.08);
+        }
+        [data-theme="dark"] {
+            /* Academic Dark Theme */
+            --bg-primary: #2d2d2d;
+            --bg-secondary: #1e1e1e;
+            --text-primary: #e0e0e0;
+            --text-secondary: #b0b0b0;
+            --accent-primary: #42a5f5;
+            --accent-secondary: #64b5f6;
+            --header-bg: #000000;
+            --footer-bg: #212121;
+            --nav-bg: #1a1a1a;
+            --border-color: #333333;
+            --shadow: rgba(0,0,0,0.3);
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: var(--bg-primary); color: var(--text-primary); transition: background-color 0.3s ease, color 0.3s ease; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header { background: var(--header-bg); color: white; padding: 0 !important; text-align: center; height: auto; min-height: auto; font-size: 0.8rem; line-height: 1; transition: background-color 0.3s ease; }
+        nav { background: var(--nav-bg); padding: 0 !important; height: auto; min-height: auto; font-size: 1rem; line-height: 1; transition: background-color 0.3s ease; position: relative; }
+        nav ul { list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; flex-wrap: wrap; }
+        .nav-container { position: relative; }
+        nav li { margin: 0 1rem; }
+        nav a { color: white; text-decoration: none; padding: 0.5rem 1rem; border-radius: 4px; transition: background-color 0.3s; }
+        nav a:hover, nav a.active { background-color: var(--accent-primary); }
+        main { background: var(--bg-secondary); padding: 0.25rem; margin: 0; border-radius: 8px; box-shadow: 0 2px 10px var(--shadow); transition: background-color 0.3s ease, box-shadow 0.3s ease; }
+        .research-section { 
+            padding: 2rem 3rem; 
+            margin-bottom: 1rem;
+            background: var(--bg-primary);
+            border-radius: 8px;
+            position: relative;
+        }
+        .research-section:first-child { 
+            padding-top: 1rem; 
+        }
+        .research-section::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 10%;
+            right: 10%;
+            height: 2px;
+            background: linear-gradient(to right, transparent, var(--accent-primary), transparent);
+        }
+        .research-section:last-child::after {
+            display: none;
+        }
+        h2 { 
+            color: var(--text-primary); 
+            margin-top: 0; 
+            margin-bottom: 1.5rem; 
+            font-size: 1.75rem;
+            font-weight: 400;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid var(--accent-primary);
+            display: inline-block;
+        }
+        h2:first-child { margin-top: 0; }
+        .publication { border-bottom: 1px solid var(--border-color); padding: 0.25rem 0; }
+        .publication:last-child { border-bottom: none; }
+        .publication h3 { color: var(--text-primary); margin-bottom: 0.1rem; }
+        .publication .authors { color: var(--text-secondary); font-style: italic; margin-bottom: 0.1rem; }
+        .publication .authors a { color: var(--accent-primary); text-decoration: none; transition: color 0.3s; }
+        .publication .authors a:hover { color: var(--accent-secondary); text-decoration: underline; }
+        .publication .venue { color: var(--accent-primary); font-weight: bold; font-style: italic; margin-bottom: 0.25rem; }
+        .publication .excerpt { margin-bottom: 0.25rem; text-align: justify; }
+        .publication .links { margin-top: 0.25rem; }
+        .publication .links a { display: inline-flex; flex-direction: row; align-items: baseline; color: #3498db; text-decoration: none; margin-right: 1rem; margin-bottom: 0.5rem; transition: color 0.3s; font-size: 1rem; }
+        .publication .links a:hover { color: #2980b9; }
+        .publication .links a.pdf { color: #e74c3c; }
+        .publication .links a.pdf:hover { color: #c0392b; }
+        .publication .links a.code { color: #8e44ad; }
+        .publication .links a.code:hover { color: #6c3483; }
+        .publication .links a i { margin-right: 0.5rem; font-size: 1rem; width: 16px; height: 16px; display: flex; align-items: center; justify-content: center; }
+        .publication .links a svg { margin-right: 0.5rem; }
+        /* Journal article specific overrides - adapt to theme */
+        #macroeconomic-downside-risk .links a.journal { color: var(--text-primary) !important; }
+        #macroeconomic-downside-risk .links a.journal:hover { color: var(--text-primary) !important; }
+        #macroeconomic-downside-risk .links a.code { color: var(--text-secondary) !important; }
+        #macroeconomic-downside-risk .links a.code:hover { color: var(--text-secondary) !important; }
+        .publication .links button i.fa-list-alt { color: #e3e3e3; margin-right: 0.5rem; }
+        .publication .links a i.fa-file-alt { color: #3498db; }
+        .publication .links a span { font-size: 0.9rem; font-weight: 500; }
+        .publication .links button { display: inline-flex; flex-direction: row; align-items: baseline; background: none; border: none; color: #3498db; text-decoration: none; margin-right: 1rem; margin-bottom: 0.5rem; transition: color 0.3s; font-size: 1rem; cursor: pointer; }
+        .publication .links button:hover { color: #2980b9; }
+        .publication .links button svg { margin-right: 0.5rem; }
+        .publication .links button span { font-size: 0.9rem; font-weight: 500; }
+        .abstract { display: none; margin-top: 1rem; padding: 1rem; background: #f8f9fa; border-radius: 4px; border-left: 4px solid var(--accent-primary); transition: background-color 0.3s ease; }
+        [data-theme="dark"] .abstract { background: #252525; }
+        .abstract.show { display: block; }
+        .toggle-abstract { background: none; color: #3498db; border: none; cursor: pointer; font-size: 1.2rem; margin-right: 1rem; margin-bottom: 0.5rem; transition: color 0.3s; display: inline-flex; flex-direction: column; align-items: center; }
+        .toggle-abstract:hover { color: #2980b9; }
+        .toggle-abstract i { margin-bottom: 0.25rem; }
+        .toggle-abstract span { font-size: 0.8rem; font-weight: 500; }
+        .theme-dropdown { position: absolute; top: 50%; right: 20px; transform: translateY(-50%); z-index: 1000; }
+        .theme-toggle { background: transparent; border: none; color: white; cursor: pointer; font-size: 1.2rem; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; padding: 0.5rem; border-radius: 4px; }
+        .theme-toggle:hover { background: var(--accent-primary); }
+        .theme-menu { position: absolute; top: 100%; right: 0; background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); min-width: 120px; display: none; overflow: hidden; margin-top: 0.25rem; }
+        .theme-menu.show { display: block; }
+        .theme-option { width: 100%; background: none; border: none; padding: 0.75rem 1rem; color: var(--text-primary); cursor: pointer; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; transition: background-color 0.2s ease; text-align: left; }
+        .theme-option:hover { background: var(--bg-primary); }
+        .theme-option.active { background: var(--accent-primary); color: white; }
+        footer { background: var(--footer-bg); color: white; text-align: center; padding: 1rem 0; margin-top: 2rem; transition: background-color 0.3s ease; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Andrea De Polis</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="container nav-container">
+            <ul>
+                <li><a href="index.html" id="navAbout">About</a></li>
+                <li><a href="research.html" class="active">Research</a></li>
+                <li><a href="policy-work.html">Policy Work</a></li>
+                <li><a href="index.html#CV">CV</a></li>
+            </ul>
+            <div class="theme-dropdown">
+                <button class="theme-toggle" onclick="toggleDropdown()" id="themeToggle">
+                    <span id="themeIcon">⚙</span>
+                </button>
+                <div class="theme-menu" id="themeMenu">
+                    <button onclick="setTheme('light')" class="theme-option"><span>☀</span> Light</button>
+                    <button onclick="setTheme('dark')" class="theme-option"><span>☽</span> Dark</button>
+                    <button onclick="setTheme('auto')" class="theme-option"><span>⚙</span> Auto</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="research-section">
+                <h2>Journal Articles</h2>
+                <div id="macroeconomic-downside-risk"></div>
+                <script>
+                    fetch('papers/macroeconomic-downside-risk.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('macroeconomic-downside-risk').innerHTML = html);
+                </script>
+            </div>
+            
+            <div class="research-section">
+                <h2>Working Papers</h2>
+                <div id="taming-skew"></div>
+                <script>
+                    fetch('papers/taming-skew.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('taming-skew').innerHTML = html);
+                </script>
+                <div id="momentum-crashes"></div>
+                <script>
+                    fetch('papers/momentum-crashes.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('momentum-crashes').innerHTML = html);
+                </script>
+                <div id="conditional-skewness"></div>
+                <script>
+                    fetch('papers/conditional-skewness.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('conditional-skewness').innerHTML = html);
+                </script>
+                <div id="exchange-rate-dynamics"></div>
+                <script>
+                    fetch('papers/exchange-rate-dynamics.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('exchange-rate-dynamics').innerHTML = html);
+                </script>
+            </div>
+            
+            <div class="research-section">
+                <h2>Work in Progress</h2>
+                <div id="bayesian-inference"></div>
+                <script>
+                    fetch('papers/bayesian-inference.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('bayesian-inference').innerHTML = html);
+                </script>
+                <div id="macroeconomic-forecasting"></div>
+                <script>
+                    fetch('papers/macroeconomic-forecasting.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('macroeconomic-forecasting').innerHTML = html);
+                </script>
+                <div id="mixed-frequency-functional"></div>
+                <script>
+                    fetch('papers/mixed-frequency-functional.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('mixed-frequency-functional').innerHTML = html);
+                </script>
+                <div id="real-time-forecasting"></div>
+                <script>
+                    fetch('papers/real-time-forecasting.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('real-time-forecasting').innerHTML = html);
+                </script>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p style="text-align: center;">&copy; <span id="currentYear"></span> Andrea De Polis. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        function toggleAbstract(abstractId, button) {
+            const abstract = document.getElementById(abstractId);
+            const icon = button.querySelector('i');
+            const span = button.querySelector('span');
+            if (!abstract) return;
+            if (abstract.classList.contains('show')) {
+                abstract.classList.remove('show');
+                icon.className = 'fas fa-list-alt';
+                span.textContent = 'Abstract';
+            } else {
+                abstract.classList.add('show');
+                icon.className = 'fas fa-list-alt';
+                span.textContent = 'Hide';
+            }
+        }
+        let currentTheme = localStorage.getItem('theme') || 'auto';
+        function toggleDropdown() { document.getElementById('themeMenu').classList.toggle('show'); }
+        function setTheme(theme) {
+            currentTheme = theme; localStorage.setItem('theme', theme);
+            if (theme === 'auto') { const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches; document.documentElement.setAttribute('data-theme', prefersDark ? 'dark' : 'light'); }
+            else { document.documentElement.setAttribute('data-theme', theme); }
+            const icon = document.getElementById('themeIcon');
+            icon.textContent = theme === 'dark' ? '☽' : theme === 'light' ? '☀' : '⚙';
+            updateActiveOption();
+            document.getElementById('themeMenu').classList.remove('show');
+        }
+        function updateActiveOption() {
+            document.querySelectorAll('.theme-option').forEach(option => {
+                option.classList.remove('active');
+                if (option.textContent.includes(currentTheme === 'light' ? 'Light' : currentTheme === 'dark' ? 'Dark' : 'Auto')) option.classList.add('active');
+            });
+        }
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+            if (currentTheme === 'auto') document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+        });
+        function retargetAllLinks() {
+            document.querySelectorAll('a').forEach(a => {
+                // Keep navigation links in same tab (About, Research, Policy Work, CV)
+                if (a.closest('nav')) {
+                    a.setAttribute('target', '_self');
+                    a.removeAttribute('rel');
+                } else {
+                    a.setAttribute('target', '_blank');
+                    a.setAttribute('rel', 'noopener noreferrer');
+                }
+            });
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+            setTheme(currentTheme); updateActiveOption();
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+            retargetAllLinks();
+            const observer = new MutationObserver(() => retargetAllLinks());
+            observer.observe(document.body, { childList: true, subtree: true });
+        });
+        document.addEventListener('click', function(event) {
+            const dropdown = document.querySelector('.theme-dropdown');
+            if (!dropdown.contains(event.target)) document.getElementById('themeMenu').classList.remove('show');
+        });
+    </script>
+</body>
+</html>
+
+
