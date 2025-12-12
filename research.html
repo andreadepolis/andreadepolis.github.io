@@ -182,6 +182,12 @@
                         .then(r => r.text())
                         .then(html => document.getElementById('conditional-skewness').innerHTML = html);
                 </script>
+                <div id="real-time-forecasting"></div>
+                <script>
+                    fetch('papers/real-time-forecasting.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('real-time-forecasting').innerHTML = html);
+                </script>
                 <div id="exchange-rate-dynamics"></div>
                 <script>
                     fetch('papers/exchange-rate-dynamics.html')
@@ -209,12 +215,6 @@
                     fetch('papers/mixed-frequency-functional.html')
                         .then(r => r.text())
                         .then(html => document.getElementById('mixed-frequency-functional').innerHTML = html);
-                </script>
-                <div id="real-time-forecasting"></div>
-                <script>
-                    fetch('papers/real-time-forecasting.html')
-                        .then(r => r.text())
-                        .then(html => document.getElementById('real-time-forecasting').innerHTML = html);
                 </script>
             </div>
         </div>
