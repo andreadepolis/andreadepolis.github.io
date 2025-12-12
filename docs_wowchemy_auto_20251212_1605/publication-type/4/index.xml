@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4 | Andrea De Polis</title>
+    <link>https://andreadepolis.github.io/publication-type/4.html</link>
+      <atom:link href="https://andreadepolis.github.io/publication-type/4/index.xml" rel="self" type="application/rss+xml" />
+    <description>4</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Andrea De Polis</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://andreadepolis.github.io/media/icon_hu_e97900795e09ef19.png</url>
+      <title>4</title>
+      <link>https://andreadepolis.github.io/publication-type/4.html</link>
+    </image>
+    
+    <item>
+      <title>The Dynamics of Macroeconomic Downside Risk</title>
+      <link>https://andreadepolis.github.io/policywork/suerfdownsiderisk.html</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://andreadepolis.github.io/policywork/suerfdownsiderisk.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
