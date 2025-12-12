@@ -6,11 +6,11 @@ title: "The Dynamics of Macroeconomic Downside Risk"
 #- DelleMonache
 #- Petrella
 
-date: "2021"
+date: "2021-01-01"
 doi: ""
 weight: 1
 
-publishDate: " "
+publishDate: "2021-01-01T00:00:00Z"
 summary: <font size="-1">with <a href="https://sites.google.com/site/dellemonachedavide/home" target="_blank" rel="noopener noreferrer"> Davide Delle Monache</a> (Bank of Italy) and <a href="https://sites.google.com/a/ivanpetrella.com/www/" target="_blank" rel="noopener noreferrer">Ivan Petrella</a> (University of Warwick).
 
 # Publication type.

@@ -14,7 +14,7 @@ authors:
 #- "Equal contribution"
 #- "Equal contribution"
 
-date: "2024"
+date: "2024-01-01"
 doi: ""
 weight: 1
 # Publication type.
@@ -75,4 +75,4 @@ image:
 share: false  # Show social sharing links?
 profile: false
 ---
-Inflation risk in U.S. data varies significantly over time and often exhibits asymmetry. We introduce an econometric model with time-varying asymmetric risk that outperforms a state-of-the-art symmetric model in forecasting accuracy and achieves results comparable to those of professional forecasters. Skewness in the inflation distribution introduces a wedge between the expected value of future inflation and the modal forecast. We show that this wedge can be formalized within a linear-quadratic DSGE model by deriving the \textit{beliefs representation of asymmetric risk} of that model. This approach enables us to solve analytically for optimal monetary policy in stylized models and to explore the implications of skewed risk on macroeconomic outcomes in quantitative DSGE models. The optimal policy requires the central bank to take measures that shift the modal forecasts for inflation in the opposite direction of the asymmetric risk. We demonstrate the practical implications of this policy approach by aligning the beliefs representation of a quantitative DSGE model to reflect the inflation skewness estimated by the econometric model using U.S. data. 
+We develop a tractable methodology to analyze the implications of evolving asymmetric risks in dynamic general equilibrium frameworks. Optimal policy calls for the central bank to lean against the balance of inflation risks, thereby mitigating their influence on agents' expectations. Using U.S. data, we show that inflation risks are time-varying and typically asymmetric. Using a quantitative model, we evaluate how these risks affect the macroeconomy and evaluate how a policy responding to real-time estimates of the balance of risks would have changed U.S. macroeconomic dynamics during the post-COVID rise in upside inflation risks. 

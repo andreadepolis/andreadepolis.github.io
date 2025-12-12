@@ -13,9 +13,9 @@ authors:
 #- "Equal contribution"
 #- "Equal contribution"
 
-date: "2019"
+date: "2019-01-01"
 doi: ""
-weight: 4
+weight: 5
 # Schedule page publish date (NOT publication's date).
 publishDate: "2019-01-01T00:00:00Z"
 

@@ -69,7 +69,7 @@
         h2 { 
             color: var(--text-primary); 
             margin-top: 0; 
-            margin-bottom: 1.5rem; 
+            margin-bottom: -0.5rem; 
             font-size: 1.75rem;
             font-weight: 400;
             padding-bottom: 0.5rem;
@@ -122,12 +122,91 @@
         .theme-option:hover { background: var(--bg-primary); }
         .theme-option.active { background: var(--accent-primary); color: white; }
         footer { background: var(--footer-bg); color: white; text-align: center; padding: 1rem 0; margin-top: 2rem; transition: background-color 0.3s ease; }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            header {
+                font-size: 0.9rem;
+                padding: 0.5rem 0;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 0.5rem;
+                margin: 0.5rem 0;
+            }
+
+            nav li {
+                margin: 0;
+            }
+
+            nav a {
+                padding: 0.4rem 0.8rem;
+                font-size: 0.9rem;
+                display: block;
+                width: 100%;
+                text-align: center;
+                max-width: 200px;
+            }
+
+            .theme-dropdown {
+                position: relative;
+                top: auto;
+                right: auto;
+                transform: none;
+                text-align: center;
+                margin: 0.5rem 0;
+            }
+
+            .theme-toggle {
+                margin: 0 auto;
+                display: inline-block;
+            }
+
+            .theme-menu {
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                transform: translateX(-50%);
+                right: auto;
+                margin-top: 0.5rem;
+            }
+
+            .research-section {
+                padding: 1.5rem 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.2rem;
+            }
+
+            nav a {
+                padding: 0.3rem 0.6rem;
+                font-size: 0.8rem;
+            }
+
+            .research-section {
+                padding: 1rem 0.75rem;
+            }
+
+            .theme-toggle {
+                font-size: 1rem;
+                padding: 0.4rem;
+            }
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Andrea De Polis</h1>
+            <h1><a href="about.html" target="_self" style="color: inherit; text-decoration: none;">Andrea De Polis</a></h1>
         </div>
     </header>
     <nav>
@@ -182,6 +261,12 @@
                         .then(r => r.text())
                         .then(html => document.getElementById('conditional-skewness').innerHTML = html);
                 </script>
+                <div id="real-time-forecasting"></div>
+                <script>
+                    fetch('papers/real-time-forecasting.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('real-time-forecasting').innerHTML = html);
+                </script>
                 <div id="exchange-rate-dynamics"></div>
                 <script>
                     fetch('papers/exchange-rate-dynamics.html')
@@ -209,12 +294,6 @@
                     fetch('papers/mixed-frequency-functional.html')
                         .then(r => r.text())
                         .then(html => document.getElementById('mixed-frequency-functional').innerHTML = html);
-                </script>
-                <div id="real-time-forecasting"></div>
-                <script>
-                    fetch('papers/real-time-forecasting.html')
-                        .then(r => r.text())
-                        .then(html => document.getElementById('real-time-forecasting').innerHTML = html);
                 </script>
             </div>
         </div>
@@ -262,6 +341,10 @@
         });
         function retargetAllLinks() {
             document.querySelectorAll('a').forEach(a => {
+                // Don't override links that already have target="_self" explicitly set
+                if (a.getAttribute('target') === '_self') {
+                    return;
+                }
                 // Keep navigation links in same tab (About, Research, Policy Work, CV)
                 if (a.closest('nav')) {
                     a.setAttribute('target', '_self');
@@ -276,6 +359,8 @@
             setTheme(currentTheme); updateActiveOption();
             document.getElementById('currentYear').textContent = new Date().getFullYear();
             retargetAllLinks();
+            // Run retargetAllLinks again after a short delay to catch dynamically loaded content
+            setTimeout(retargetAllLinks, 100);
             const observer = new MutationObserver(() => retargetAllLinks());
             observer.observe(document.body, { childList: true, subtree: true });
         });

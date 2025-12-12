@@ -32,7 +32,8 @@ module:
 uglyURLs: true
 enableGitInfo: false
 summaryLength: 30
-paginate: 10
+pagination:
+  pagerSize: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
@@ -67,3 +68,6 @@ related:
       weight: 100
     - name: categories
       weight: 70
+security:
+  funcs:
+    getenv: ['^HUGO_', '^CI$', '^WC_']
