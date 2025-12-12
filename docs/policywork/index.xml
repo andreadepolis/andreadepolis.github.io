@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Policy Work | Andrea De Polis</title>
-    <link>https://andreadepolis.github.io/policywork.html</link>
+    <link>https://andreadepolis.github.io/policywork/index.html</link>
       <atom:link href="https://andreadepolis.github.io/policywork/index.xml" rel="self" type="application/rss+xml" />
     <description>Policy Work</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Andrea De Polis</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Andrea De Polis</copyright><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://andreadepolis.github.io/media/icon_hu5bbdac8555476ddb5a94b8b904ae6f96_154295_512x512_fill_lanczos_center_3.png</url>
+      <url>https://andreadepolis.github.io/media/icon_hu_e97900795e09ef19.png</url>
       <title>Policy Work</title>
-      <link>https://andreadepolis.github.io/policywork.html</link>
+      <link>https://andreadepolis.github.io/policywork/index.html</link>
     </image>
     
     <item>
       <title>The Dynamics of Macroeconomic Downside Risk</title>
       <link>https://andreadepolis.github.io/policywork/suerfdownsiderisk.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://andreadepolis.github.io/policywork/suerfdownsiderisk.html</guid>
       <description></description>
     </item>

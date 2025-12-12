@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication_types | Andrea De Polis</title>
-    <link>https://andreadepolis.github.io/publication_types.html</link>
+    <link>https://andreadepolis.github.io/publication_types/index.html</link>
       <atom:link href="https://andreadepolis.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Andrea De Polis</copyright><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Andrea De Polis</copyright><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://andreadepolis.github.io/media/icon_hu5bbdac8555476ddb5a94b8b904ae6f96_154295_512x512_fill_lanczos_center_3.png</url>
+      <url>https://andreadepolis.github.io/media/icon_hu_e97900795e09ef19.png</url>
       <title>Publication_types</title>
-      <link>https://andreadepolis.github.io/publication_types.html</link>
+      <link>https://andreadepolis.github.io/publication_types/index.html</link>
     </image>
     
   </channel>

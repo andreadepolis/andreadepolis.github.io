@@ -5,19 +5,38 @@
     <link>https://andreadepolis.github.io/publication-type/0.html</link>
       <atom:link href="https://andreadepolis.github.io/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Andrea De Polis</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Andrea De Polis</copyright>
     <image>
-      <url>https://andreadepolis.github.io/media/icon_hu5bbdac8555476ddb5a94b8b904ae6f96_154295_512x512_fill_lanczos_center_3.png</url>
+      <url>https://andreadepolis.github.io/media/icon_hu_e97900795e09ef19.png</url>
       <title>0</title>
       <link>https://andreadepolis.github.io/publication-type/0.html</link>
     </image>
     
     <item>
-      <title>The Ever-Changing Challenges to Price Stability</title>
-      <link>https://andreadepolis.github.io/workinprogress/inflationrisk.html</link>
+      <title>Common Risks and Common Gaps</title>
+      <link>https://andreadepolis.github.io/workinprogress/commonrisks.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://andreadepolis.github.io/workinprogress/inflationrisk.html</guid>
-      <description></description>
+      <guid>https://andreadepolis.github.io/workinprogress/commonrisks.html</guid>
+      <description>&lt;p&gt;The Okun’s law puts forward a relation between the output and the unemployment gaps. I provide evidence of common non-linearities across the two quantities, highlighting common dynamics in higher order moments. I estimate a joint model for the dynamics of the marginal densities of the output gap and the unemployment gap, which can capture potential non-Gaussian features of the data through the time variation of the mean, variance and skewness. I postulate the Okun’s relation to hold for the predictive densities by assuming common cyclical components for the moments. I document a considerable reduction in the uncertainty surrounding estimates of the natural rate of unemployment, or NAIRU, in the US, as compared to estimates based on symmetric models. Simi- larly, accounting for time-varying skewness of the output delivers estimates of the output gap that are less uncertain and more stable over time with respect to CBO projections.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Ever-Changing Challenges to Price Stability</title>
+      <link>https://andreadepolis.github.io/workinprogress/everchanging.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://andreadepolis.github.io/workinprogress/everchanging.html</guid>
+      <description>&lt;p&gt;US inflation risk is non-symmetric and varies considerably over time. Monetary and fiscal policies along with non-policy factors, such as unit labor costs, long-run interest rates, the unemployment gap, and commodity prices, are key drivers of the inflation risk. Macroeconomic predictors affect the long-run mean of inflation chiefly by influencing the shape and the skewness of the predictive distribution of long-run inflation. Inflation stabilization requires periodic revisions to the monetary and fiscal framework to counterbalance persistent shifts in the inflation risk. Failing to offset the inflation risk led to the large upside inflation risk of the 1960s and the 1970s. Our findings suggest that the Phillips curve is nonlinear and its slope is affected by policy and non-policy factors that have bearings on short-term volatility and risk of inflation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mixed Frequency Functional VARs for Nowcasting and Structural Analysis</title>
+      <link>https://andreadepolis.github.io/workinprogress/incomenowcasting.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://andreadepolis.github.io/workinprogress/incomenowcasting.html</guid>
+      <description>&lt;p&gt;We propose a functional-Vector Autoregressive model (fVAR) to nowcast the dynamics of the whole income distribution in the United Kingdom. British survey data about household income are published by the Office for National Statistics (ONS) with considerable delay, making them un- appealing for policy evaluation. Our approach produces accurate predictions of past, current and future income distributions. We introduce a framework to rank the predictive ability of forecasting models when the target object is a full density, rather than a single realization. Based on this novel loss-function, we establish that out fVAR provides superior forecasting accuracy with respect to com- peting models. Our model further allows to carry out structural analysis on the income distribution within a traditional VAR setting.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
