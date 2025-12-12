@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daniele Bianchi | Andrea De Polis</title>
+    <link>https://andreadepolis.github.io/authors/bianchi.html</link>
+      <atom:link href="https://andreadepolis.github.io/authors/bianchi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Daniele Bianchi</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Andrea De Polis</copyright><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://andreadepolis.github.io/media/icon_hu_e97900795e09ef19.png</url>
+      <title>Daniele Bianchi</title>
+      <link>https://andreadepolis.github.io/authors/bianchi.html</link>
+    </image>
+    
+    <item>
+      <title>Time-Varying Skewness and Momentum Crashes</title>
+      <link>https://andreadepolis.github.io/workingpapers/momentum.html</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://andreadepolis.github.io/workingpapers/momentum.html</guid>
+      <description>&lt;p&gt;We provide empirical evidence that the returns on US equity momentum exhibit a time-varying skewness which deepens during dramatic losses (crashes). As a result, the dynamics of the strategy expected returns reflects the time variation in {\it both} conditional volatility and skewness. This has first order implications for managing risks associated with momentum investing: an adjusted momentum portfolio which hedges in real time for both volatility and skewness risk outperforms benchmark constant and dynamic volatility-managed momentum strategies. This result holds for different levels of transaction costs and risk aversion and cannot be reconciled by the exposure to standard equity risk factors.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
