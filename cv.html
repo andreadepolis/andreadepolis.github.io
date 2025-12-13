@@ -69,6 +69,11 @@
             transition: background-color 0.3s ease;
             position: relative;
         }
+        nav .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
         nav ul {
             list-style: none;
             margin: 0;
@@ -77,6 +82,7 @@
             justify-content: center;
             flex-wrap: wrap;
         }
+        nav ul { flex: 1; }
         nav li {
             margin: 0 1rem;
         }
@@ -187,12 +193,14 @@
             margin-bottom: 0.25rem;
         }
         .theme-dropdown {
-            position: absolute;
-            top: 50%;
-            right: 20px;
-            transform: translateY(-50%);
+            position: relative;
+            top: auto;
+            right: auto;
+            transform: none;
             z-index: 1000;
         }
+        .mobile-nav-bar { display: flex; align-items: center; gap: 0.25rem; }
+        .nav-toggle { display: none; }
         .theme-toggle {
             background: transparent;
             border: none;
@@ -246,6 +254,66 @@
             background: var(--accent-primary);
             color: white;
         }
+        @media (max-width: 600px) {
+            nav .container {
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0.25rem;
+            }
+            .mobile-nav-bar {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                padding: 0.15rem 20px;
+                box-sizing: border-box;
+            }
+            .mobile-nav-bar { order: 0; }
+            .nav-toggle {
+                background: transparent;
+                border: none;
+                color: white;
+                cursor: pointer;
+                font-size: 1.25rem;
+                padding: 0.4rem 0.6rem;
+                border-radius: 4px;
+            }
+            .nav-toggle { display: inline-flex; }
+            .nav-toggle:hover {
+                background: var(--accent-primary);
+            }
+            .theme-dropdown {
+                position: relative;
+                top: auto;
+                right: auto;
+                transform: none;
+                margin: 0;
+                align-self: auto;
+                padding-right: 0;
+            }
+            nav ul {
+                width: 100%;
+                display: none;
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0.15rem;
+                padding: 0.25rem 20px 0.5rem 20px;
+                box-sizing: border-box;
+            }
+            nav ul { order: 1; flex: 0 0 auto; }
+            nav.nav-open ul {
+                display: flex;
+            }
+            nav li {
+                margin: 0;
+            }
+            nav a {
+                padding: 0.55rem 0.75rem;
+                display: block;
+                text-align: center;
+            }
+        }
         footer {
             background: var(--footer-bg);
             color: white;
@@ -271,20 +339,25 @@
                 <li><a href="policy-work.html">Policy Work</a></li>
                 <li><a href="cv.html" class="active">CV</a></li>
             </ul>
-            <div class="theme-dropdown">
-                <button class="theme-toggle" onclick="toggleDropdown()" id="themeToggle">
-                    <span id="themeIcon">⚙</span>
+            <div class="mobile-nav-bar">
+                <button class="nav-toggle" type="button" aria-label="Toggle navigation" onclick="toggleMobileNav(this)">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
                 </button>
-                <div class="theme-menu" id="themeMenu">
-                    <button onclick="setTheme('light')" class="theme-option">
-                        <span>☀</span> Light
+                <div class="theme-dropdown">
+                    <button class="theme-toggle" onclick="toggleDropdown()" id="themeToggle">
+                        <span id="themeIcon">⚙</span>
                     </button>
-                    <button onclick="setTheme('dark')" class="theme-option">
-                        <span>☽</span> Dark
-                    </button>
-                    <button onclick="setTheme('auto')" class="theme-option">
-                        <span>⚙</span> Auto
-                    </button>
+                    <div class="theme-menu" id="themeMenu">
+                        <button onclick="setTheme('light')" class="theme-option">
+                            <span>☀</span> Light
+                        </button>
+                        <button onclick="setTheme('dark')" class="theme-option">
+                            <span>☽</span> Dark
+                        </button>
+                        <button onclick="setTheme('auto')" class="theme-option">
+                            <span>⚙</span> Auto
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -322,6 +395,12 @@
     
     <script>
         let currentTheme = localStorage.getItem('theme') || 'auto';
+
+        function toggleMobileNav(button) {
+            const nav = button.closest('nav');
+            if (!nav) return;
+            nav.classList.toggle('nav-open');
+        }
         
         function toggleDropdown() {
             const menu = document.getElementById('themeMenu');
