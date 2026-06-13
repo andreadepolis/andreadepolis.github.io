@@ -217,6 +217,12 @@
         <div class="container">
             <div class="research-section">
                 <h2>Journal Articles</h2>
+                <div id="oil-supply-inflation-tail-risks"></div>
+                <script>
+                    fetch('papers/oil-supply-inflation-tail-risks.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('oil-supply-inflation-tail-risks').innerHTML = html);
+                </script>
                 <div id="macroeconomic-downside-risk"></div>
                 <script>
                     fetch('papers/macroeconomic-downside-risk.html')

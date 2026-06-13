@@ -352,6 +352,12 @@
     <main>
         <div class="container">
             <h2>Discussions</h2>
+            <div id="chmx2026"></div>
+            <script>
+                fetch('discussion/chmx2026.html')
+                    .then(r => r.text())
+                    .then(html => document.getElementById('chmx2026').innerHTML = html);
+            </script>
             <div id="strike-while-iron-hot"></div>
             <script>
                 fetch('discussion/strike-while-iron-hot.html')
