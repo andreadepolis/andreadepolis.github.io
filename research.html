@@ -219,6 +219,12 @@
         <div class="container">
             <div class="research-section">
                 <h2>Journal Articles</h2>
+                <div id="momentum-crashes"></div>
+                <script>
+                    fetch('papers/momentum-crashes.html')
+                        .then(r => r.text())
+                        .then(html => document.getElementById('momentum-crashes').innerHTML = html);
+                </script>
                 <div id="oil-supply-inflation-tail-risks"></div>
                 <script>
                     fetch('papers/oil-supply-inflation-tail-risks.html')
@@ -240,12 +246,6 @@
                     fetch('papers/taming-skew.html')
                         .then(r => r.text())
                         .then(html => document.getElementById('taming-skew').innerHTML = html);
-                </script>
-                <div id="momentum-crashes"></div>
-                <script>
-                    fetch('papers/momentum-crashes.html')
-                        .then(r => r.text())
-                        .then(html => document.getElementById('momentum-crashes').innerHTML = html);
                 </script>
                 <div id="conditional-skewness"></div>
                 <script>
